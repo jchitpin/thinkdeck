@@ -1,7 +1,6 @@
 # ThinkDeck
 
-A Penkasu-inspired portable PC based on a Raspberry Pi Zero 2 W, HyperPixel 4.0 display, and BM40v2 keyboard (hotswap) PCB from KPrepublic.
-Dimensions are 232x98x55mm.
+A Penkasu-inspired portable PC that incorporates my favourite design elements of old ThinkPads.
 
 ## Why would you want one?
 
@@ -15,10 +14,11 @@ Dimensions are 232x98x55mm.
 1. Full-sized key switches/keycaps in a 40% ortho layout.
 2. Sturdy panel mounted I/O ports for (i) micro B, (ii) full-sized HDMI, and (iii) USB A 2.0 for connecting a wireless mouse or flash drive.
 3. Display with a capacitive touch screen.
+4. 232x98x55mm dimensions.
 
 ## Design compromises
 
-1. Several mm bigger in all dimensions compared to the original Penkesu.
+1. Several millimetres bigger in all dimensions compared to the original Penkesu.
 2. Keyboard PCB is held in place by friction and YMMV.
 3. Display is top aligned to increase cable management space.
 4. Display is relatively small because the top chassis must enclose most of the electronics.
