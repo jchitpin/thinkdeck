@@ -1,7 +1,7 @@
 # think-deck
 
 A Penkasu-inspired portable PC based on a Raspberry Pi Zero 2 W, HyperPixel 4.0 display, and BM40v2 keyboard (hotswap) PCB from KPrepublic.
-Dimensions are 232mm length by 98mm wide by 55mm height.
+Dimensions are 232x98x55mm.
 
 ## Why would you want one?
 
@@ -19,10 +19,11 @@ Dimensions are 232mm length by 98mm wide by 55mm height.
 ## Design compromises
 
 1. Several mm bigger in all dimensions compared to the original Penkesu.
-2. Display is top aligned to increase the room below for cable management.
-3. Display is relatively small because the top chassis must enclose most of the electronics.
-4. No 3.5mm headphone jack. Bluetooth audio required unless connected to a monitor with a headphone jack.
-5. No trackpad. :(
+2. Keyboard PCB is held in place by friction and YMMV.
+3. Display is top aligned to increase cable management space.
+4. Display is relatively small because the top chassis must enclose most of the electronics.
+5. No 3.5mm headphone jack. Bluetooth audio required unless connected to a monitor with a headphone jack.
+6. No trackpad. :(
 
 # Materials
 
@@ -40,8 +41,8 @@ Dimensions are 232mm length by 98mm wide by 55mm height.
 * Electronics
   * Raspberry Pi Zero 2 W (or possibly a Raspberry Pi Zero W).
   * Adafruit PowerBoost 1000C.
-  * 3.7V 606090 (or similar sized) Li-Po battery.
-  * SPDT Slide Switch (for powering the device).
+  * 3.7V 606090 (or similar sized) Li-Po battery. Dimensions may not exceed 91×55×7.5mm.
+  * SPDT Slide Switch (for powering the device). Dimensions should not exceed 8.5x3.5mm.
 * Fasteners
   * 14 M2x6 screws.
     * 4 screws for the screen cover.
@@ -54,7 +55,11 @@ Dimensions are 232mm length by 98mm wide by 55mm height.
   * BM40v2 plate from KPrepublic (optional. You could also 3D print this).
   * 47 switches (3pin RGB / 5pin RGB / 3pin SMD / 5pin SMD).
   * 47 keycaps (Cherry profile or lower recommended)
-
+* Miscellaneous
+  * Kapton tape to secure PowerBoost 1000C and battery to the top chassis.
+  * Superglue to mount the slide switch.
+  * Cable ties for cable management (optional).
+ 
 # Build guide
 
 1. 
