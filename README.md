@@ -20,8 +20,9 @@ Dimensions are 232mm length by 98mm wide by 55mm height.
 
 1. Several mm bigger in all dimensions compared to the original Penkesu.
 2. Display is top aligned to increase the room below for cable management.
-3. No 3.5mm headphone jack. Bluetooth audio required unless connected to a monitor with a headphone jack.
-4. No trackpad. :(
+3. Display is relatively small because the top chassis must enclose most of the electronics.
+4. No 3.5mm headphone jack. Bluetooth audio required unless connected to a monitor with a headphone jack.
+5. No trackpad. :(
 
 # Materials
 
