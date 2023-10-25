@@ -5,14 +5,14 @@ A Penkasu-inspired portable PC that incorporates my favourite design elements of
 ## Why would you want one?
 
 1. It looks cool and you like the form factor!
-2. You like building stuff in tiny enclosures.
-3. Need a small Linux device for connecting with other IoT devices.
+2. You're a sadist that enjoys building things in tiny enclosures.
+3. Need a small Linux box for connecting with other IoT devices.
 4. Want a portable computing device with full-sized key switches/keycaps.
 
 ## Features
 
 1. Full-sized key switches/keycaps in a 40% ortho layout.
-2. Sturdy panel mounted I/O ports for (i) micro B, (ii) full-sized HDMI, and (iii) USB A 2.0 for connecting a wireless mouse or flash drive.
+2. Sturdy panel mounted I/O ports for a (i) micro B, (ii) full-sized HDMI, and (iii) USB A 2.0 for connecting a wireless mouse or flash drive.
 3. Display with a capacitive touch screen.
 4. 232x98x55mm dimensions.
 
@@ -21,7 +21,7 @@ A Penkasu-inspired portable PC that incorporates my favourite design elements of
 1. Several millimetres bigger in all dimensions compared to the original Penkesu.
 2. Keyboard PCB is held in place by friction and YMMV.
 3. Display is top aligned to increase cable management space.
-4. Display is relatively small because the top chassis must enclose most of the electronics.
+4. Display is relatively small because most of the electronics are enclosed in the top chassis.
 5. No 3.5mm headphone jack. Bluetooth audio required unless connected to a monitor with a headphone jack.
 6. No trackpad. :(
 
@@ -42,8 +42,8 @@ A Penkasu-inspired portable PC that incorporates my favourite design elements of
 * Electronics
   * Raspberry Pi Zero 2 W (or possibly a Raspberry Pi Zero W).
   * Adafruit PowerBoost 1000C.
-  * 3.7V 606090 (or similar sized) Li-Po battery. Dimensions may not exceed 91×55×7.5mm.
-  * SPDT Slide Switch (for powering the device). Dimensions should not exceed 8.5x3.5mm.
+  * 3.7V 606090 (or similar sized) Li-Po battery. Dimensions may not exceed 91×55×7.5mm (length x width x depth).
+  * SPDT Slide Switch (for powering the device). Dimensions should not exceed 8.5x3.5mm (length x width).
 * Fasteners
   * 14 M2x6 screws.
     * 4 screws for the screen cover.
@@ -65,7 +65,17 @@ A Penkasu-inspired portable PC that incorporates my favourite design elements of
  
 # Hardware/software build guide
 
-The build instructions are split into smaller modules to make identifying/troubleshooting problems easier. 
+The build instructions are split into chunks to identify/troubleshoot possible problems. 
+
+## Modifying the 3D prints (optional)
+
+You may need/want to modify the chassis design depending on the size of your components. These include:
+
+1. Modifying the micro B connector panel cutout.
+2. Modifying the HDMI panel cutout.
+3. Modifying the USB A panel cutout.
+4. Modifying the chassis dimensions to accommodate the length/width of your keyboard.
+5. Adding your own custom screen cover design rather than the standard 30 degree grill.
 
 ## Assembling the keyboard
 
@@ -74,7 +84,7 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
 
 1. If using a keyboard plate, pop the switches into the plate with the pins facing the top of the PCB (away from the spacebar). You should hear each switch snap into place.
 2. After checking the switch pins are straight, snap the plate+switches into the hotswap PCB. You should see the pins making contact with each socket on the backside of the PCB.
-3. Plug the board into a computer and test whether each switch is correctly installed. Keys that do not register most likely correspond to switches with bent pins.
+3. Plug the board into a computer and test whether each switch is correctly installed. Keys that do not register most likely correspond to switches with bent pins that are not in contact with the socket.
 4. It is recommended to flash your keyboard before installing it in the case because the hardware button to enter the firmware mode is located on the backside of the PCB.
 
 ## Assembling the Raspberry Pi and HyperPixel
@@ -85,7 +95,8 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
 
 ### Installing HyperPixel drivers
 
-1. You'll need 
+1. I successfully got the display working with a legacy version of Raspberry OS (based on Bullseye rather than Bookworm).
+2. 
 
 ## Cable testing
 
@@ -95,8 +106,8 @@ I recommend testing whether all of your cables work before installing them into 
 
 I followed the order of operations described below, but feel free to assemble in the order you see fit.
 
-0. Use a soldering iron to insert the threaded inserts each hole in the top/bottom chassis.
-1. Insert the Gameboy Advance SP hinges into the bottom chassis.
+0. Use a soldering iron to insert the threaded inserts in each hole in the top/bottom chassis.
+1. Insert the Gameboy Advance SP hinges into the bottom chassis and connect the top/bottom chasses.
 2. Connect the USB C cable to the keyboard and lower that into the bottom chassis.
 3. Insert the battery into the top left chassis cutout with the cable facing down and Kapton tape in place.
 4. Insert both mini HDMI, microB and microB OTG cables into the Raspberry Pi.
