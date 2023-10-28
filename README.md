@@ -4,10 +4,9 @@ A Penkasu-inspired portable PC that incorporates my favourite design elements of
 
 ## Why would you want one?
 
-1. It looks cool and you like the form factor!
-2. You're a sadist that enjoys building things in tiny enclosures.
-3. Need a small Linux box for connecting with other IoT devices.
-4. Want a portable computing device with full-sized key switches/keycaps.
+1. It looks cool and you like the form factor.
+2. You need a small Linux box, possibly for connecting with other IoT devices.
+3. You want a portable computing device with full-sized key switches/keycaps.
 
 ## Features
 
@@ -22,8 +21,8 @@ A Penkasu-inspired portable PC that incorporates my favourite design elements of
 2. Keyboard PCB is held in place by friction and YMMV.
 3. Display is top aligned to increase cable management space.
 4. Display is relatively small because most of the electronics are enclosed in the top chassis.
-5. No 3.5mm headphone jack. Bluetooth audio required unless connected to a monitor with a headphone jack.
-6. No trackpad. :(
+5. No 3.5mm headphone jack. Bluetooth audio required unless connected to a monitor via HDMI.
+6. No trackpoint. :(
 
 # Materials
 
@@ -45,21 +44,26 @@ A Penkasu-inspired portable PC that incorporates my favourite design elements of
   * 3.7V 606090 (or similar sized) Li-Po battery. Dimensions may not exceed 91×55×7.5mm (length x width x depth).
   * SPDT Slide Switch (for powering the device). Dimensions should not exceed 8.5x3.5mm (length x width).
 * Fasteners
-  * 14 M2x6 screws.
-    * 4 screws for the screen cover.
-    * 4 screws to hold the HDMI connector.
-    * 4 screws to hold the USB A 2.0 connector.
-    * 2 screws to hold the keyboard tray in place. 
-  * 14 M2x6*3.5 threaded inserts for the screws above.
+  * HDMI holder
+    * 4 M2x6x3.5mm or M2x8x3.5mm threaded inserts.
+    * 4 M2x6mm or M2x8mm screws.
+  * USB-A holder
+    * 4 M2x6x3.5mm or M2x8x3.5mm threaded inserts.
+    * 4 M2x6mm or M2x8mm screws.
+  * Screen cover 
+    * 4 M2x6x3.5mm or M2x8x3.5mm threaded inserts.
+    * 4 M2x6mm or longer screws (to a max length of 16mm).
+  * Middle hinge cover
+    * 2 M2x4x3.5mm threaded inserts.
+    * 2 M2x4mm screws.
 * Keyboard
-  * BM40v2 hotswap PCB and 2U Stabilizer from KPrepublic.
+  * BM40v2 hotswap PCB with 2U Stabilizer from KPrepublic.
   * BM40v2 plate from KPrepublic (optional. You could also 3D print this).
-  * 47 switches (3pin RGB / 5pin RGB / 3pin SMD / 5pin SMD).
-  * 47 keycaps (Cherry profile or lower recommended).
+  * 47 switches compatible with the PCB (3pin RGB / 5pin RGB / 3pin SMD / 5pin SMD).
+  * 47 keycaps (Cherry profile or lower recommended but 11.9mm OEMs should fit without touching the upper case when closed).
 * Miscellaneous
-  * Micro SD card with Raspberry Pi OS installed (16GB minimum; Bullseye legacy version recommended as of 2023-10-24 for compatibility with the HyperPixel 4.0).
+  * Micro SD card with Raspberry Pi OS installed (16GB minimum; Bullseye legacy version recommended as of 2023-10-24 for compatibility with the HyperPixel 4.0 rectangle).
   * Kapton tape to secure PowerBoost 1000C and battery to the top chassis.
-  * Superglue to mount the slide switch.
   * Soldering iron, solder, and wire.
   * Cable ties for cable management (optional).
  
