@@ -4,7 +4,7 @@ A Penkasu-inspired portable PC that incorporates my favourite design elements of
 
 ## Why would you want one?
 
-1. It looks cool and you like the form factor.
+1. It looks cool and you like the (chunky) form factor.
 2. You need a small(-ish) Linux box, possibly for connecting with other IoT devices.
 3. You want a portable computing device with full-sized key switches/keycaps.
 
@@ -107,8 +107,8 @@ I recommend testing whether all of your cables work before installing them into 
 
 ## Cleaning up 3D prints
 
-1. Trim supports.
-2. Sand surfaces (medium to fine grit).
+1. Trim off supports.
+2. Optional: sand/prime/sand/paint/clear coat. (I just didn't bother)
 
 ## Fit-testing cable panel cutouts
 
