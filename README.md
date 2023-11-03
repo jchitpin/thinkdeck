@@ -5,7 +5,7 @@ A Penkasu-inspired portable PC that incorporates my favourite design elements of
 ## Why would you want one?
 
 1. It looks cool and you like the form factor.
-2. You need a small Linux box, possibly for connecting with other IoT devices.
+2. You need a small(-ish) Linux box, possibly for connecting with other IoT devices.
 3. You want a portable computing device with full-sized key switches/keycaps.
 
 ## Features
@@ -18,11 +18,10 @@ A Penkasu-inspired portable PC that incorporates my favourite design elements of
 ## Design compromises
 
 1. Several millimetres bigger in all dimensions compared to the original Penkesu.
-2. Keyboard PCB is held in place by friction and YMMV.
-3. Display is top aligned to increase cable management space.
-4. Display is relatively small because most of the electronics are enclosed in the top chassis.
-5. No 3.5mm headphone jack. Bluetooth audio required unless connected to a monitor via HDMI.
-6. No trackpoint. :(
+2. Display is top aligned to increase cable management space.
+3. Display is relatively small because most of the electronics are enclosed in the top chassis.
+4. No 3.5mm headphone jack. Bluetooth audio required unless connected to a monitor via HDMI.
+5. No trackpoint. :(
 
 # Materials
 
@@ -105,6 +104,16 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
 ## Cable testing
 
 I recommend testing whether all of your cables work before installing them into the the chassis. These include the micro HDMI to HDMI connector, the USB splitter, micro B panel connector, and USB C to USB A cable.
+
+## Cleaning up 3D prints
+
+1. Trim supports.
+2. Sand surfaces (medium to fine grit).
+
+## Fit-testing cable panel cutouts
+
+1. You will probably need to sand/shave down the cable enclosures to fit snugly inside the top chassis.
+
 
 ## Assembling the ThinkDeck
 
