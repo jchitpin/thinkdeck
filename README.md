@@ -1,27 +1,27 @@
 # ThinkDeck
 
-A Penkasu-inspired portable PC that incorporates my favourite design elements of old ThinkPads.
+A Penkasu-inspired portable PC that incorporates my favourite design elements of old ThinkPads. Dimensions are 232x98x55mm (L x W x H).
 
 ## Why would you want one?
 
 1. It looks cool and you like the (chunky) form factor.
 2. You need a small(-ish) Linux box, possibly for connecting with other IoT devices.
-3. You want a portable computing device with full-sized key switches/keycaps.
+3. You want a portable computing device with support for full-sized key switches/keycaps.
 
 ## Features
 
 1. Full-sized key switches/keycaps in a 40% ortho layout.
 2. Sturdy panel mounted I/O ports for a (i) micro B, (ii) full-sized HDMI, and (iii) USB A 2.0 for connecting a wireless mouse or flash drive.
 3. Display with a capacitive touch screen.
-4. 232x98x55mm dimensions.
+4. Visible LED indicators for battery management status (from the PowerBoost 1000C).
 
 ## Design compromises
 
-1. Several millimetres bigger in all dimensions compared to the original Penkesu.
-2. Display is top aligned to increase cable management space.
-3. Display is relatively small because most of the electronics are enclosed in the top chassis.
-4. No 3.5mm headphone jack. Bluetooth audio required unless connected to a monitor via HDMI.
-5. No trackpoint. :(
+1. Several millimetres longer in all dimensions compared to the original Penkesu.
+2. Display is relatively small because most of the electronics are enclosed in the top chassis.
+3. No 3.5mm headphone jack. Bluetooth audio required unless connected to a monitor via HDMI.
+4. No trackpoint. :(
+5. The keyboard USB is outside the case because of internal space constraints. But this also means the ThinkDeck doubles as a portable keyboard!
 
 # Materials
 
@@ -80,14 +80,16 @@ You may need/want to modify the chassis design depending on the size of your com
 4. Modifying the chassis dimensions to accommodate the length/width of your keyboard.
 5. Adding your own custom screen cover design rather than the standard 30 degree grill.
 
+Because most cable connectors have standard sizes, you could also shave the plastic housing to fit inside the panel cutouts. This would avoid modifying the model.
+
 ## Assembling the keyboard
 
-Those with an existing 40% keyboard may consider modifying the chassis to accommodate their own board.
+Those with an existing 40% keyboard should consider modifying the chassis to accommodate their own board.
 For mechanical keyboard novices such as myself, the instructions are straightforward with the hotswap PCB:
 
-1. If using a keyboard plate, pop the switches into the plate with the pins facing the top of the PCB (away from the spacebar). You should hear each switch snap into place.
+1. If using a keyboard plate, pop the switches into the plate with the pins in the same direction and aligned with the PCB. You should hear each switch snap into place.
 2. After checking the switch pins are straight, snap the plate+switches into the hotswap PCB. You should see the pins making contact with each socket on the backside of the PCB.
-3. Plug the board into a computer and test whether each switch is correctly installed. Keys that do not register most likely correspond to switches with bent pins that are not in contact with the socket.
+3. Plug the board into a computer and test whether each switch is correctly installed. Keys that do not register most likely correspond to switches with bent pins that are not contacting the socket.
 4. It is recommended to flash your keyboard before installing it in the case because the hardware button to enter the firmware mode is located on the backside of the PCB.
 
 ## Assembling the Raspberry Pi and HyperPixel
@@ -101,23 +103,26 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
 1. I successfully got the display working with a legacy version of Raspberry OS (based on Bullseye rather than Bookworm).
 2. 
 
-## Cable testing
+## Cable testing and modifications
 
 I recommend testing whether all of your cables work before installing them into the the chassis. These include the micro HDMI to HDMI connector, the USB splitter, micro B panel connector, and USB C to USB A cable.
+Because the cables need to fit into the top chassis, it is recommended to (carefully!) strip the plastic wrapping to reduce cable bulkiness. See the final assembly pictures for more details.
 
 ## Cleaning up 3D prints
 
 1. Trim off supports.
-2. Optional: sand/prime/sand/paint/clear coat. (I just didn't bother)
+2. Optional: sand/prime/sand/paint/clear coat. (I just didn't bother because I liked the raw "industrial" look).
 
 ## Fit-testing cable panel cutouts
 
 1. You will probably need to sand/shave down the cable enclosures to fit snugly inside the top chassis.
-
+2. A pair of curved needle nose pliers is great pushing the USB/HDMI connectors into their respective cutouts.
 
 ## Assembling the ThinkDeck
 
 I followed the order of operations described below, but feel free to assemble in the order you see fit.
+
+1. 
 
 0. Use a soldering iron to insert the threaded inserts in each hole in the top/bottom chassis.
 1. Insert the Gameboy Advance SP hinges into the bottom chassis and connect the top/bottom chasses.
