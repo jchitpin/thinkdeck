@@ -92,6 +92,12 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
 3. Plug the board into a computer and test whether each switch is correctly installed. Keys that do not register most likely correspond to switches with bent pins that are not contacting the socket.
 4. It is recommended to flash your keyboard before installing it in the case because the hardware button to enter the firmware mode is located on the backside of the PCB.
 
+## Flashing the keyboard
+
+1. Install QMK.
+2. `$ qmk compile -kb kprepublic/bm40hsrgb/rev2 -km jchitpin`
+
+
 ## Assembling the Raspberry Pi and HyperPixel
 
 1. Solder the 2x20 break-away header to the Raspberry Pi (unless you bought the presoldered version).
