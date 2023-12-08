@@ -42,7 +42,7 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
 * Electronics
   * Raspberry Pi Zero 2 W (or possibly a Raspberry Pi Zero W).
   * Adafruit PowerBoost 1000C.
-  * 3.7V 606090 (or similar sized) Li-Po battery. Dimensions may not exceed 91×55×7.5mm (length x width x depth).
+  * 3.7V 606090 or up to 755590 Li-Po battery. Dimensions may not exceed 91×55×7.5mm (length x width x depth).
   * SPDT Slide Switch (for powering the device). Dimensions should not exceed 8.5x3.5mm (length x width).
 * Fasteners
   * HDMI holder (optional)
@@ -58,15 +58,15 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
     * 2 M2x4x3.5mm threaded inserts.
     * 2 M2x4mm screws.
 * Keyboard
-  * BM40v2 hotswap PCB with 2U Stabilizer from KPrepublic.
-  * BM40v2 plate from KPrepublic (optional. You could also 3D print this).
-  * 47 switches compatible with the PCB (3pin RGB / 5pin RGB / 3pin SMD / 5pin SMD).
-  * 47 keycaps (Cherry profile or lower recommended but 11.9mm OEMs should fit without touching the upper case when closed).
+  * BM40v2 hotswap PCB with included 2U Stabilizer from KPrepublic.
+  * BM40v2 plate from KPrepublic. (Optional and you could also 3D print this)
+  * 47 switches compatible with the PCB. (3pin RGB / 5pin RGB / 3pin SMD / 5pin SMD)
+  * 47 keycaps. (Cherry profile or lower recommended but 11.9mm OEMs should fit without touching the upper case when closed)
 * Miscellaneous
   * Micro SD card with Raspberry Pi OS installed (16GB minimum; Bullseye legacy version recommended as of 2023-10-24 for compatibility with the HyperPixel 4.0 rectangle).
   * A phone kickstand. (I used the ESR branded kickstand.)
   * Kapton tape to secure PowerBoost 1000C and battery to the top chassis.
-  * Epoxy or super glue for glueing the hinges and hinge mechanisms.
+  * Epoxy or super glue for glueing the hinge covers and hinge mechanisms.
   * Soldering iron, solder, and wire.
   * Cable ties. (Optional)
  
