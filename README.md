@@ -1,6 +1,6 @@
 # ThinkDeck
 
-A Penkesu-inspired portable PC that incorporates my favourite design elements of old ThinkPads. Dimensions are 232x98x55mm (L x W x H).
+A Penkesu-inspired portable PC that incorporates my favourite design elements of old ThinkPads.
 
 ## Why would you want one?
 
@@ -14,7 +14,8 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
 2. Sturdy panel mounted I/O ports for a (i) micro B, (ii) full-sized HDMI, and (iii) USB A 2.0 for connecting a wireless mouse or flash drive.
 3. Display with a capacitive touch screen.
 4. Visible LED indicators for battery management status (from the PowerBoost 1000C).
-5. Power switch is protected inside the case to prevent accidentally turning on/off the device.
+5. Power switch is protected inside the case to prevent accidentally powering on/off the device.
+6. Dimensions are 232x98x55mm (L x W x H).
 
 ## Design compromises
 
@@ -22,7 +23,7 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
 2. Display is relatively small because most of the electronics are enclosed in the top chassis.
 3. No 3.5mm headphone jack. Bluetooth audio required unless connected to a monitor via HDMI.
 4. No trackpoint. :(
-5. Kickstand required to prevent the device from tipping onto the screen at a normal viewing angle. The benefit, however, is not requiring specialized GBA replacement hinges.
+5. Kickstand required to prevent the device from tipping onto the screen at a normal viewing angle.
 
 # Materials
 
