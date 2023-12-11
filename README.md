@@ -11,16 +11,16 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
 ## Features
 
 1. Full-sized key switches/keycaps in a 40% ortho layout.
-2. Sturdy panel mounted I/O ports for a (i) micro B, (ii) full-sized HDMI, and (iii) USB A 2.0 for connecting a wireless mouse or flash drive.
-3. Display with a capacitive touch screen.
+2. Panel mounted I/O ports for (i) micro B charging, (ii) HDMI display, and (iii) USB A 2.0 port.
+3. Capactive touch screen display.
 4. Visible LED indicators for battery management status (from the PowerBoost 1000C).
-5. Power switch is protected inside the case to prevent accidentally powering on/off the device.
+5. Power switch enclosed within the case to prevent accidental power toggling.
 6. Dimensions are 232x98x55mm (L x W x H).
 
-## Design compromises
+## Design comprises compared to the original Penkesu
 
 1. Several millimetres longer in all dimensions compared to the original Penkesu.
-2. Display is relatively small because most of the electronics are enclosed in the top chassis.
+2. Display is relatively small because most electronics are enclosed in the top chassis.
 3. No 3.5mm headphone jack. Bluetooth audio required unless connected to a monitor via HDMI.
 4. No trackpoint. :(
 5. Kickstand required to prevent the device from tipping onto the screen at a normal viewing angle.
@@ -31,27 +31,26 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
   * Break-away 0.1" 2x20-pin strip dual male header (or a Raspberry Pi with a presoldered header).
   * Micro B male OTG to USB A female cable (15cm length).
   * Micro B male to USB A female cable (15cm length).
-  * USB A Y-splitter cable (make sure it can transfer data; 30cm length).
+  * USB A Y-splitter cable (make sure it can transfer data;  30cm length).
   * USB A male to USB C right angle female connector (make sure the right angle connection is fairly slim; 30cm length).
   * Micro HDMI male to HDMI female cable (15cm length).
 * Case
   * 6mm wide plastic/wooden/metal dowels or Gameboy Advance SP replacement hinges.
   * 3D printed parts.
-* Display
-  * HyperPixel 4.0 (rectangle).
 * Electronics
   * Raspberry Pi Zero 2 W (or possibly a Raspberry Pi Zero W).
   * Adafruit PowerBoost 1000C.
+  * HyperPixel 4.0 (rectangle) display.
   * 3.7V 606090 or up to 755590 Li-Po battery. Dimensions may not exceed 91×55×7.5mm (length x width x depth).
   * SPDT Slide Switch (for powering the device). Dimensions should not exceed 8.5x3.5mm (length x width).
 * Fasteners
-  * HDMI holder (optional)
+  * For HDMI holder (optional)
     * 4 M2x6x3.5mm or M2x8x3.5mm threaded inserts.
     * 4 M2x6mm or M2x8mm screws.
-  * USB-A holder (optional)
+  * For USB-A holder (optional)
     * 4 M2x6x3.5mm or M2x8x3.5mm threaded inserts.
     * 4 M2x6mm or M2x8mm screws.
-  * Screen cover (threaded inserts required with M2 screws!)
+  * For screen cover
     * 4 M2x6x3.5mm or M2x8x3.5mm threaded inserts.
     * 4 M2x6mm or longer screws (to a max length of 16mm).
   * Middle hinge cover (threaded inserts required with M2 screws!)
@@ -64,10 +63,11 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
   * 47 keycaps. (Cherry profile or lower recommended but 11.9mm OEMs should fit without touching the upper case when closed)
 * Miscellaneous
   * Micro SD card with Raspberry Pi OS installed (16GB minimum; Bullseye legacy version recommended as of 2023-10-24 for compatibility with the HyperPixel 4.0 rectangle).
-  * A phone kickstand. (I used the ESR branded kickstand.)
+  * A phone kickstand. (I used an ESR branded kickstand.)
   * Kapton tape to secure PowerBoost 1000C and battery to the top chassis.
   * Epoxy or super glue for glueing the hinge covers and hinge mechanisms.
   * Soldering iron, solder, and wire.
+  * Utility knife.
   * Cable ties. (Optional)
  
 # Hardware/software build guide
