@@ -167,7 +167,7 @@ I followed the order of operations described below, but feel free to assemble in
 
 1. Connect the USB cable to the keyboard PCB and install into the bottom chassis.
 2. Route the USB A connector to the top chassis and in between the Raspberry Pi and HyperPixel, emerging just below the USB OTG connector.
-3. Note the excess keyboard USB cabling and zip tie.
+3. Secure the excess keyboard USB cabling inside the bottom chassis compartment using cable ties.
 4. Insert the keyboard divider into the bottom chassis to hide the excess keyboard USB cabling.
 5. Insert cardstock/paper spacers surrounding the keyboard if there is excess PCB wiggle room inside the bottom chassis.
 6. Connect the keyboard USB A header to the USB splitter.
@@ -184,5 +184,5 @@ I followed the order of operations described below, but feel free to assemble in
 
 # Conclusion
 
-Congratulations you have successfully built your very own ThinkDeck! I'd like to give a shout out to Penk and his Penkesu design for inspiring me to build my own cyber/typewriter deck.
+Congratulations you have successfully built your very own ThinkDeck! I'd like to give a shout out to Penk for inspiring me to build my own cyberdeck.
 
