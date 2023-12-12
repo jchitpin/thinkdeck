@@ -2,6 +2,8 @@
 
 A Penkesu-inspired portable PC that incorporates my favourite design elements of old ThinkPads.
 
+Insert picture here.
+
 ## Why would you want one?
 
 1. It looks cool and you like the (slightly chunky) form factor.
@@ -16,6 +18,9 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
 4. Visible LED indicators for battery management status (from the PowerBoost 1000C).
 5. Power switch enclosed within the case to prevent accidental power toggling.
 6. Dimensions are 232x98x55mm (L x W x H).
+7. INSERT WEIGHT! (printed in PETG)
+
+Insert pictures here.
 
 ## Design comprises compared to the original Penkesu
 
@@ -26,6 +31,8 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
 5. Kickstand required to prevent the device from tipping onto the screen at a normal viewing angle.
 
 # Materials
+
+Add links to parts!
 
 * Cables and connectors
   * Break-away 0.1" 2x20-pin strip dual male header (or a Raspberry Pi with a presoldered header).
