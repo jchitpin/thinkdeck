@@ -122,6 +122,8 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
 
 1. I successfully got the display working with a legacy version of Raspberry OS (based on Bullseye dated 2023-05-03 rather than Bookworm).
 2. Log into the Pi remotely or via the micro-HDMI connector (without the HyperPixel display installed).
+  * `$ ssh username@192.168.W.XYZ`
+  * `$ <passphrase>`
 3. Update the Pi via: `$ sudo apt update && sudo apt upgrade`
 4. Install the HyperPixel drivers and correct the touchscreen orientation by adding the following lines to the config file. (See: https://github.com/pimoroni/hyperpixel4/issues/177)
   * `$ sudo vim.tiny /boot/config.txt`
