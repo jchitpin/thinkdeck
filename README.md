@@ -111,6 +111,15 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
 2. See the following link for details:
   * https://github.com/rgoulter/qmk_firmware/tree/bm40hsrgb_rev2/keyboards/kprepublic/bm40hsrgb/rev2
   * https://docs.qmk.fm/#/
+3. Configure your keyboard locale:
+  * `$sudo raspi-config`
+  * 5 Localisation Options
+  * L3 Keyboard
+  * Generic (any one works).
+  * Pick one (English (US) for my keymapping).
+  * The default for the keyboard layout.
+  * Choose one (I picked No compose key).
+  * Chose one (I picked <No>).
 
 ## Assembling the Raspberry Pi and HyperPixel
 
