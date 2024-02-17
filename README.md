@@ -77,7 +77,7 @@ Insert pictures here (TBD).
   * Utility knife.
   * Cable ties. (Optional)
  
-# Hardware/software build guide
+# Build guide
 
 ## Modifying the 3D prints (optional)
 
@@ -89,9 +89,24 @@ You may need/want to modify the chassis design depending on the size of your com
 4. Modifying the chassis dimensions to accommodate the length/width of your keyboard.
 5. Adding your own custom screen cover design rather than the standard 30 degree grill.
 
-Because many cable connectors have similar dimensions, you could also shave the plastic housing to fit inside the panel cutouts.
+## Cable testing and modifications
 
-## Assembling the keyboard
+I recommend testing whether all of your cables work before installing them into the the chassis. These include the micro HDMI to HDMI connector, the USB splitter, micro B panel connector, and USB C to USB A cable.
+I also recommend (carefully!) stripping the outer plastic sheathing to reduce cable bulk. Shaving plastic off the USB connectors may also be needed to fit them inside the panel cutouts.
+
+## Assembling the top and bottom ThinkDeck chassis
+
+1. Carefully trim off supports from the 3D prints. A pair of needle nose pliers is great for removing supports inside the panel cutouts.
+2. Insert the GBA hinges or dowels into the bottom chassis hinge holes.
+3. Carefully epoxy/superglue the exposed GBA hinges/dowels to the hinge grooves of the top chassis. Make sure the glue does not seep into the bottom chassis hinge holes!
+4. When dry, epoxy/superglue the left and right 3D printed hinge caps to enclose the hinges/dowels.
+5. Optional: sand/prime/sand/paint/clear coat.
+
+
+
+## Bottom chassis
+
+### Keyboard assembly
 
 Those with an existing 40% keyboard should consider modifying the chassis to accommodate their own board.
 For mechanical keyboard novices such as myself, the instructions are straightforward for the hotswap PCB:
@@ -103,7 +118,7 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
   * Bootmagic reset: Hold down the key at (0,0) in the matrix (the top left key) and then plug the keyboard into the Pi.
   * Physical reset button: Briefly press the button labeled 'RST' on the back of the PCB.
 
-## Flashing the keyboard
+### QMK flashing
 
 1. Install QMK and follow their instructions to flash your own keyboard.
 2. See the following link for details:
@@ -111,7 +126,17 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
   * https://docs.qmk.fm/#/
 Note: make sure your keyboard locale is correctly configured! You can specify the locale when installing Raspbian or via `sudo raspi-config`.
 
-## Assembling the Raspberry Pi and HyperPixel
+### Mounting keyboard to bottom chassis
+
+1. Connect the USB cable to the keyboard PCB and lower them into the bottom chassis.
+2. Route the USB A connector approximately 2-3 inches out of the bottom chassis hinge opening. This cable will connect to the Pi in the top chassis via a USB splitter.
+3. Secure the excess keyboard USB cabling inside the bottom chassis compartment using cable ties.
+4. Insert the keyboard divider into the bottom chassis to hide the excess keyboard USB cabling.
+5. Insert cardstock/paper/rubber spacers surrounding the keyboard if there is excess PCB wiggle room inside the bottom chassis.
+
+## Top chassis
+
+### Assembling the Raspberry Pi and HyperPixel
 
 1. Solder the 2x20 break-away header to the Raspberry Pi (unless you bought the presoldered version like I did).
 2. Gently connect the HyperPixel to the Raspberry Pi 2x20 header. The display manufacturer Pimoroni recommends holding the display at the edges.
@@ -127,18 +152,9 @@ I successfully got the display working with a legacy version of 64-bit Raspbian 
 3. Ran the `Pi Screen Configuration` application in the drop down menu and changed the screen orientation.
   * Right-clicked on the display and set orientation to `left`.
 
-## Cable testing and modifications
 
-I recommend testing whether all of your cables work before installing them into the the chassis. These include the micro HDMI to HDMI connector, the USB splitter, micro B panel connector, and USB C to USB A cable.
-Because the cables need to fit into the top chassis, it is recommended to (carefully!) strip the outer plastic sheathing to reduce cable bulk. See the final assembly pictures for more details.
 
-## Assembling the ThinkDeck chassis
 
-1. Carefully trim off supports from the 3D prints. A pair of needle nose pliers is great for removing supports inside the panel cutouts.
-2. Insert the GBA hinges or dowels into the bottom chassis hinge holes.
-3. Carefully epoxy/superglue the exposed GBA hinges/dowels to the hinge grooves of the top chassis. Make sure the glue does not seep into the bottom chassis hinge holes!
-4. When dry, epoxy/superglue the left and right 3D printed hinge caps to enclose the hinges/dowels.
-5. Optional: sand/prime/sand/paint/clear coat.
 
 ## Fit-testing cable panel cutouts
 
@@ -169,14 +185,7 @@ I followed the order of operations described below, but feel free to assemble in
 8. Carefully insert the on/off switch into the "cup holder" of the HDMI holder.
 9. Connect the USB splitter to the USB OTG cable.
 
-### Bottom chassis steps
 
-1. Connect the USB cable to the keyboard PCB and install into the bottom chassis.
-2. Route the USB A connector to the top chassis and in between the Raspberry Pi and HyperPixel, emerging just below the USB OTG connector.
-3. Secure the excess keyboard USB cabling inside the bottom chassis compartment using cable ties.
-4. Insert the keyboard divider into the bottom chassis to hide the excess keyboard USB cabling.
-5. Insert cardstock/paper spacers surrounding the keyboard if there is excess PCB wiggle room inside the bottom chassis.
-6. Connect the keyboard USB A header to the USB splitter.
 
 ### Finishing touches
 
