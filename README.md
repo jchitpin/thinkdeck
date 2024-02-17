@@ -19,7 +19,7 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
 4. Visible LED indicators for battery management status (from the PowerBoost 1000C).
 5. Power switch enclosed within the case to prevent accidental power toggling.
 6. Dimensions are 232x98x55mm (L x W x H).
-7. INSERT WEIGHT! (printed in PETG)
+7. INSERT WEIGHT! (printed in PETG but I've learned a PLA screen cover would be more rigid.)
 
 Insert pictures here (TBD).
 
@@ -190,6 +190,8 @@ I followed the order of operations described below, but feel free to assemble in
 # Conclusion
 
 Congratulations you have successfully built your very own ThinkDeck! I'd like to give a shout out to Penk for inspiring me to build my own cyberdeck.
+
+# Photo dump
 
 ![Fit-testing port cable cutouts. This was before I realized I needed to remove the plastic sheathing.](https://github.com/jchitpin/think-deck/blob/main/images/chassis-port-cables.jpg)
 ![Assembled upper chassis. 0.75mm extra clearance was added to the battery compartment to avoid bulging from the USB connectors on top.](https://github.com/jchitpin/think-deck/blob/main/images/chassis-upper-guts.jpg)
