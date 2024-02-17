@@ -1,14 +1,15 @@
 # ThinkDeck
 
-A Penkesu-inspired portable PC that incorporates my favourite design elements of old ThinkPads.
+A Penkesu-inspired portable PC that incorporates my favourite design elements of old ThinkPads
 
-Insert picture here.
+![](https://github.com/jchitpin/think-deck/blob/main/images/profile.jpg?raw=true)
+![](https://github.com/jchitpin/think-deck/blob/main/images/profile-angled.jpg)
 
 ## Why would you want one?
 
 1. It looks cool and you like the (slightly chunky) form factor.
 2. You need a small(-ish) Linux box, possibly for connecting with other IoT devices.
-3. You want a portable computing device with support for full-sized key switches/keycaps.
+3. You want a portable computing/note taking device with support for full-sized key switches/keycaps.
 
 ## Features
 
@@ -20,7 +21,7 @@ Insert picture here.
 6. Dimensions are 232x98x55mm (L x W x H).
 7. INSERT WEIGHT! (printed in PETG)
 
-Insert pictures here.
+Insert pictures here (TBD).
 
 ## Design comprises compared to the original Penkesu
 
@@ -31,8 +32,6 @@ Insert pictures here.
 5. Kickstand required to prevent the device from tipping onto the screen at a normal viewing angle.
 
 # Materials
-
-Add links to parts!
 
 * Cables and connectors
   * Break-away 0.1" 2x20-pin strip dual male header (or a Raspberry Pi with a presoldered header).
@@ -79,7 +78,7 @@ Add links to parts!
  
 # Hardware/software build guide
 
-The build instructions are split into chunks to identify/troubleshoot possible problems. 
+The build instructions are split into the following sections: 
 
 ## Modifying the 3D prints (optional)
 
@@ -127,22 +126,15 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
 2. Gently connect the HyperPixel to the Raspberry Pi 2x20 header. The display manufacturer Pimoroni recommends holding the display at the edges.
 3. Insert your microSD card into the Raspberry Pi and power the device. See below if this results in a black screen...
 
-### Installing HyperPixel drivers if the HyperPixel/Pi boots to a black screen
+### Installing HyperPixel drivers if the HyperPixel & Pi boots to a black screen
 
-1. I successfully got the display working with a legacy version of Raspberry OS (based on Bullseye dated 2023-05-03 rather than Bookworm).
-2. Log into the Pi remotely or via the micro-HDMI connector (without the HyperPixel display installed).
-  * `$ ssh username@192.168.W.XYZ`
-  * `$ <passphrase>`
-3. Update the Pi via: `$ sudo apt update && sudo apt upgrade`
-4. Install the HyperPixel drivers and correct the touchscreen orientation by adding the following lines to the config file. (See: https://github.com/pimoroni/hyperpixel4/issues/177)
-  * `$ sudo vim.tiny /boot/config.txt`
-  * `dtoverlay=vc4-kms-dpi-hyperpixel4`
-  * `dtparam=rotate=90,touchscreen-swapped-x-y,touchscreen-inverted-x`
+1. I successfully got the display working with a legacy version of Raspberry OS (based on Bullseye dated 2023-12-05 rather than Bookworm).
+4. Install the HyperPixel drivers and correct the touchscreen orientation by adding the following lines to the config file. (See: https://github.com/pimoroni/hyperpixel4/issues/177#issuecomment-1932650705)
 
 ## Cable testing and modifications
 
 I recommend testing whether all of your cables work before installing them into the the chassis. These include the micro HDMI to HDMI connector, the USB splitter, micro B panel connector, and USB C to USB A cable.
-Because the cables need to fit into the top chassis, it is recommended to (carefully!) strip the plastic wrapping to reduce cable bulkiness and the plastic surrounding the connectors. See the final assembly pictures for more details.
+Because the cables need to fit into the top chassis, it is recommended to (carefully!) strip the outer plastic sheathing to reduce cable bulk. See the final assembly pictures for more details.
 
 ## Assembling the ThinkDeck chassis
 
