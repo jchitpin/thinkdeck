@@ -2,8 +2,9 @@
 
 A Penkesu-inspired portable PC that incorporates my favourite design elements of old ThinkPads
 
-![](https://github.com/jchitpin/think-deck/blob/main/images/profile.jpg?raw=true)
+![](https://github.com/jchitpin/think-deck/blob/main/images/profile.jpg)
 ![](https://github.com/jchitpin/think-deck/blob/main/images/profile-angled.jpg)
+![](https://github.com/jchitpin/think-deck/blob/main/images/action-shot.jpg)
 
 ## Why would you want one?
 
