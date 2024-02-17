@@ -78,8 +78,6 @@ Insert pictures here (TBD).
  
 # Hardware/software build guide
 
-The build instructions are split into the following sections: 
-
 ## Modifying the 3D prints (optional)
 
 You may need/want to modify the chassis design depending on the size of your components. These include:
@@ -101,7 +99,7 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
 2. After checking the switch pins are straight, snap the plate+switches into the hotswap PCB. You should see the pins making contact with each socket on the backside of the PCB.
 3. Plug the board into a computer and test whether each switch is correctly installed. Keys that do not register most likely correspond to switches with bent pins that are not contacting the socket.
 4. It is recommended to flash your keyboard before installing it in the case because it can be tricky to enter the bootloader afterwards.
-  * Bootmagic reset: Hold down the key at (0,0) in the matrix (the top left key) and plug in the keyboard.
+  * Bootmagic reset: Hold down the key at (0,0) in the matrix (the top left key) and then plug the keyboard into the Pi.
   * Physical reset button: Briefly press the button labeled 'RST' on the back of the PCB.
 
 ## Flashing the keyboard
@@ -110,15 +108,7 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
 2. See the following link for details:
   * https://github.com/rgoulter/qmk_firmware/tree/bm40hsrgb_rev2/keyboards/kprepublic/bm40hsrgb/rev2
   * https://docs.qmk.fm/#/
-3. Configure your keyboard locale:
-  * `$sudo raspi-config`
-  * 5 Localisation Options
-  * L3 Keyboard
-  * Generic (any one works).
-  * Pick one (English (US) for my keymapping).
-  * The default for the keyboard layout.
-  * Choose one (I picked No compose key).
-  * Chose one (I picked <No>).
+Note: make sure your keyboard locale is correctly configured! You can specify the locale when installing Raspbian or via `sudo raspi-config`.
 
 ## Assembling the Raspberry Pi and HyperPixel
 
@@ -126,10 +116,15 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
 2. Gently connect the HyperPixel to the Raspberry Pi 2x20 header. The display manufacturer Pimoroni recommends holding the display at the edges.
 3. Insert your microSD card into the Raspberry Pi and power the device. See below if this results in a black screen...
 
-### Installing HyperPixel drivers if the HyperPixel & Pi boots to a black screen
+### Installing HyperPixel drivers if the Pi boots to a black screen
 
-1. I successfully got the display working with a legacy version of Raspberry OS (based on Bullseye dated 2023-12-05 rather than Bookworm).
-4. Install the HyperPixel drivers and correct the touchscreen orientation by adding the following lines to the config file. (See: https://github.com/pimoroni/hyperpixel4/issues/177#issuecomment-1932650705)
+I successfully got the display working with a legacy version of 64-bit Raspbian (based on Bullseye dated 2023-12-05 rather than Bookworm).
+1. Edit Raspbian `/boot/config.txt` file and add the following lines to the top of the screen:
+  * `dtoverlay=vc4-kms-dpi-hyperpixel4`
+  * `dtparam=rotate=90,touchscreen-swapped-x-y,touchscreen-inverted-x`
+2. Booted into the Pi with the Hyperpixel 4.0 display working (albeit in portrait mode with inverted touchscreen controls).
+3. Ran the `Pi Screen Configuration` application in the drop down menu and changed the screen orientation.
+  * Right-clicked on the display and set orientation to `left`.
 
 ## Cable testing and modifications
 
@@ -138,16 +133,16 @@ Because the cables need to fit into the top chassis, it is recommended to (caref
 
 ## Assembling the ThinkDeck chassis
 
-1. Carefully trim off supports from the 3D prints. A pair of needle nosed pliers is great for removing supports inside the panel cutouts.
-3. Insert the GBA hinges or dowels into the bottom chassis hinge holes.
-4. Carefully epoxy/superglue the exposed GBA hinges/dowels to the hinge grooves of the top chassis. Make sure the glue does not seep into the bottom chassis hinge holes!
-5. When dried (roughly 5 minutes), epoxy/superglue the left and right 3D printed hinge caps to enclose the hinges/dowels.
-6. Optional: sand/prime/sand/paint/clear coat. (I just didn't bother because I liked the look).
+1. Carefully trim off supports from the 3D prints. A pair of needle nose pliers is great for removing supports inside the panel cutouts.
+2. Insert the GBA hinges or dowels into the bottom chassis hinge holes.
+3. Carefully epoxy/superglue the exposed GBA hinges/dowels to the hinge grooves of the top chassis. Make sure the glue does not seep into the bottom chassis hinge holes!
+4. When dry, epoxy/superglue the left and right 3D printed hinge caps to enclose the hinges/dowels.
+5. Optional: sand/prime/sand/paint/clear coat.
 
 ## Fit-testing cable panel cutouts
 
-1. You will probably need to sand/shave down the cable enclosures to fit snugly inside the top chassis.
-1. A pair of curved needle nose pliers is great pushing the USB/HDMI connectors into their respective cutouts.
+1. You will probably need to sand/shave down the cable housing to fit snugly inside the top chassis.
+2. A pair of curved needle nose pliers is great pushing the USB/HDMI connectors into their respective cutouts.
 
 ## PowerBoost 1000C soldering
 
@@ -195,4 +190,9 @@ I followed the order of operations described below, but feel free to assemble in
 # Conclusion
 
 Congratulations you have successfully built your very own ThinkDeck! I'd like to give a shout out to Penk for inspiring me to build my own cyberdeck.
+
+![Fit-testing port cable cutouts. This was before I realized I needed to remove the plastic sheathing.](https://github.com/jchitpin/think-deck/blob/main/images/chassis-port-cables.jpg)
+![Assembled upper chassis. 0.75mm extra clearance was added to the battery compartment to avoid bulging from the USB connectors on top.](https://github.com/jchitpin/think-deck/blob/main/images/chassis-upper-guts.jpg)
+![Assembled upper and lower chassis. I assembled the hinges at the end and would suggest doing them first instead.](https://github.com/jchitpin/think-deck/blob/main/images/chassis-separated.jpg)
+![Assembled ThinkDeck prior to heat setting the brass inserts and fastening screws.](https://github.com/jchitpin/think-deck/blob/main/images/front-face-no-fasteners.jpg)
 
