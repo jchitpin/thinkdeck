@@ -193,8 +193,17 @@ Congratulations you have successfully built your very own ThinkDeck! I'd like to
 
 # Photo dump
 
-![Fit-testing port cable cutouts. This was before I realized I needed to remove the plastic sheathing.](https://github.com/jchitpin/think-deck/blob/main/images/chassis-port-cables.jpg)
-![Assembled upper chassis. 0.75mm extra clearance was added to the battery compartment to avoid bulging from the USB connectors on top.](https://github.com/jchitpin/think-deck/blob/main/images/chassis-upper-guts.jpg)
-![Assembled upper and lower chassis. I assembled the hinges at the end and would suggest doing them first instead.](https://github.com/jchitpin/think-deck/blob/main/images/chassis-separated.jpg)
-![Assembled ThinkDeck prior to heat setting the brass inserts and fastening screws.](https://github.com/jchitpin/think-deck/blob/main/images/front-face-no-fasteners.jpg)
+![](https://github.com/jchitpin/think-deck/blob/main/images/chassis-port-cables.jpg)
+Fit-testing port cable cutouts. This was before I realized I needed to remove the plastic sheathing.
+
+![](https://github.com/jchitpin/think-deck/blob/main/images/front-face-no-fasteners.jpg)
+Assembled ThinkDeck prior to heat setting the brass inserts and fastening screws.
+
+![](https://github.com/jchitpin/think-deck/blob/main/images/chassis-upper-guts.jpg)
+Assembled top chassis. I updated the model after with 0.75mm extra clearance to the battery compartment to avoid bulging from the USB connectors on top. Also decided against heat setting brass inserts into the USB holders because they fit snuggly into the top chassis.
+
+![](https://github.com/jchitpin/think-deck/blob/main/images/chassis-separated.jpg)
+Assembled top and bottom chassis. I assembled the hinges at the end and would suggest doing them before fitting the electronics.
+
+
 
