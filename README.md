@@ -145,11 +145,11 @@ Because the cables need to fit into the top chassis, it is recommended to (caref
 1. You will probably need to sand/shave down the cable housing to fit snugly inside the top chassis.
 2. A pair of curved needle nose pliers is great pushing the USB/HDMI connectors into their respective cutouts.
 
-## PowerBoost 1000C soldering
+## Soldering the PowerBoost 1000C to the battery and Pi
 
 Consult the PowerBoost 1000C documentation for pinouts and assembly instructions: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-powerboost-1000c-load-share-usb-charge-boost.pdf
 
-1. Solder the included USB header to the PowerBoost 1000C PCB.
+1. Solder the included USB header to the PowerBoost 1000C PCB (or directly solder the PowerBoost 1000C PCB to the Pi).
 2. Connect the battery to the PowerBoost 1000C via the JST connector or solder the wires directly to the board (what I did).
 3. Solder the on/off switch (SPDT Slide Switch) to the PowerBoost 1000C. 
 
