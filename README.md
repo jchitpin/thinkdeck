@@ -180,7 +180,8 @@ Consult the PowerBoost 1000C documentation for pinouts and assembly instructions
 3. Plug the mini HDMI, microB charging, and microB OTG cables into the Pi. Make sure the microB OTG cable is cable managed such that it pokes out of the top left part of the HyperPixel display.
 4. Connect the USB splitter to the USB OTG cable. Routing the cable headers so that they face left on top of the battery is ideal.
 5. Install the battery into the the left compartment of the chassis with the PowerBoost 1000C lying horizontally at the bottom compartment. The microB charging cable on the PowerBoost should face left towards the battery.
-6. Carefully insert the on/off switch connected to the PowerBoost 1000C into the "cup holder" of the HDMI holder.
+6. Lower the HyperPixel and Pi into the central compartment of the chassis. 
+7. Carefully insert the on/off switch connected to the PowerBoost 1000C into the "cup holder" of the HDMI holder.
 
 ![](https://github.com/jchitpin/think-deck/blob/main/images/chassis-upper-guts.jpg)
 Assembled top chassis. Cable management is extremely important. The thicker HDMI cable is bent to rest against to the PowerBoost 1000C USB port. The latest 3D printed files add an additional 0.75mm depth to the battery compartment to give the USB connectors extra clearance from bulging against the screen cover. 
