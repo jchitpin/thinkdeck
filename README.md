@@ -20,7 +20,7 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
 4. Visible LED indicators for battery management status (from the PowerBoost 1000C).
 5. Power switch enclosed within the case to prevent accidental power toggling.
 6. Dimensions are 232x98x55mm (L x W x H).
-7. INSERT WEIGHT! (printed in PETG but I've learned a PLA screen cover would be more rigid.)
+7. INSERT WEIGHT! (PETG)
 
 Insert pictures here (TBD).
 
@@ -90,7 +90,7 @@ You may need/want to modify the chassis design depending on the size of your com
 ## Cable testing and modifications
 
 I recommend testing whether all of your cables work before installing them into the the chassis. These include the micro HDMI to HDMI connector, the USB splitter, micro B panel connector, and USB C to USB A cable.
-I also recommend (carefully!) stripping the outer plastic sheathing to reduce cable bulk. Shaving plastic off the USB connectors may also be needed to fit them inside the panel cutouts.
+I also recommend (carefully!) stripping the outer plastic sheathing to reduce cable bulk and wrapping with a thin layer of Kapton tape. Shaving plastic off the USB connectors may also be needed to fit them inside the panel cutouts.
 
 ## Assembling the top and bottom ThinkDeck chassis
 
@@ -100,11 +100,13 @@ I also recommend (carefully!) stripping the outer plastic sheathing to reduce ca
 4. When dry, epoxy/superglue the left and right 3D printed hinge caps to enclose the hinges/dowels.
 5. Optional: sand/prime/sand/paint/clear coat.
 
-
-
 ## Bottom chassis
 
-### Keyboard assembly
+### Heat-setting the threaded brass inserts
+
+5. Insert the two threaded inserts that fasten the middle hinge cover using a hot soldering iron.
+
+### Assembling the keyboard
 
 Those with an existing 40% keyboard should consider modifying the chassis to accommodate their own board.
 For mechanical keyboard novices such as myself, the instructions are straightforward for the hotswap PCB:
@@ -134,6 +136,16 @@ Note: make sure your keyboard locale is correctly configured! You can specify th
 
 ## Top chassis
 
+### Heat-setting the thereaded brass inserts
+
+1. Insert the 4 threaded inserts that fasten the top chassis screen cover using a hot soldering iron. Take care not to melt the chassis walls!
+   
+### Mounting cable connectors
+
+1. Install the microB charging cable into its cutout with the two included screws. 
+2. Install the USB splitter cable and HDMI cable into their respective panel cutouts.
+4. Friction mount the 3D printed USB and HDMI holders to prevent the cable connectors from moving.
+
 ### Assembling the Raspberry Pi and HyperPixel
 
 1. Solder the 2x20 break-away header to the Raspberry Pi (unless you bought the presoldered version like I did).
@@ -150,50 +162,31 @@ I successfully got the display working with a legacy version of 64-bit Raspbian 
 3. Ran the `Pi Screen Configuration` application in the drop down menu and changed the screen orientation.
   * Right-clicked on the display and set orientation to `left`.
 
-
-
-
-
-## Fit-testing cable panel cutouts
-
-1. You will probably need to sand/shave down the cable housing to fit snugly inside the top chassis.
-2. A pair of curved needle nose pliers is great pushing the USB/HDMI connectors into their respective cutouts.
-
-## Soldering the PowerBoost 1000C to the battery and Pi
+### Soldering the PowerBoost 1000C to the battery and Pi + HyperPixel
 
 Consult the PowerBoost 1000C documentation for pinouts and assembly instructions: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-powerboost-1000c-load-share-usb-charge-boost.pdf
 
 1. Solder the included USB header to the PowerBoost 1000C PCB (or directly solder the PowerBoost 1000C PCB to the Pi).
 2. Connect the battery to the PowerBoost 1000C via the JST connector or solder the wires directly to the board (what I did).
-3. Solder the on/off switch (SPDT Slide Switch) to the PowerBoost 1000C. 
+3. Solder the on/off switch (SPDT Slide Switch) to the PowerBoost 1000C with enough wire to position the switch on the right chassis compartment.
 
-## Assembling the ThinkDeck
+### Installing all electronics in the top chassis
 
-I followed the order of operations described below, but feel free to assemble in the order you see fit.
-
-### Top chassis steps
-
-1. Insert the battery coupled to the PowerBoost 1000C and slide switch into the top chassis with the microB charging cable facing the battery (left).
-2. Mount the microB cable into its cutout and connect the microB cable to the PowerBoost 1000C, routing excess cable to the bottom of the chassis.
-3. Mount the USB splitter cable and HDMI cable into their panel cutouts. 
-4. Plug the mini HDMI to HDMI, microB, and microB OTG cables into the HyperPixel/Raspberry Pi. Make sure the microB OTG cable is cable managed such that it pokes out the top left part of the HyperPixel display.
-5. Insert the microB charging cable into the PowerBoost 1000C USB header.
-6. Insert the HyperPixel/Raspberry Pi + cables into the top chassis.
-7. Install the USB and HDMI holders to prevent the panel cutouts from moving.
-8. Carefully insert the on/off switch into the "cup holder" of the HDMI holder.
-9. Connect the USB splitter to the USB OTG cable.
-
-
+1. Plug the microB charging cable into the PowerBoost 1000C USB header, routing excess cable through the bottom of the chassis.
+2. Connect one of the two USB splitter ports to the USB A panel cutout cables.
+3. Plug the mini HDMI, microB charging, and microB OTG cables into the Pi. Make sure the microB OTG cable is cable managed such that it pokes out of the top left part of the HyperPixel display.
+4. Connect the USB splitter to the USB OTG cable. Routing the cable headers so that they face left on top of the battery is ideal.
+5. Install the battery into the the left compartment of the chassis with the PowerBoost 1000C lying horizontally at the bottom compartment. The microB charging cable on the PowerBoost should face left towards the battery.
+6. Carefully insert the on/off switch connected to the PowerBoost 1000C into the "cup holder" of the HDMI holder.
 
 ### Finishing touches
 
-1. Tape down any wires that are sticking out.
-2. Tape down the USB A headers to the battery.
-3. Insert the 4 threaded inserts to fasten the top chassis screen cover using a soldering iron. Take care not to melt the chassis walls!
-5. Insert the 2 threaded inserts to fasten the bottom chassis middle hinge cover.
-6. Fasten the screen cover to the top chassis with M2 screws.
-7. Fasten the middle hinge cover to the bottom chassis with M2 screws.
-8. Install the quickstand to the back of the bottom chassis. It should come with 3M tape so additional glue shouldn't be necessary.
+1. Insert the keyboard USB connector into the remaining USB splitter port.
+2. Tape down any wires that are sticking out.
+3. Tape down the two USB A splitter headers to the battery.
+4. Fasten the screen cover to the top chassis with M2 screws.
+5. Fasten the middle hinge cover to the bottom chassis with M2 screws.
+6. Install the quickstand to the back of the bottom chassis. It should come with 3M tape so additional glue shouldn't be necessary.
 
 # Conclusion
 
