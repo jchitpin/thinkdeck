@@ -67,7 +67,7 @@ Insert pictures here (TBD).
   * 47 switches compatible with the PCB. (3pin RGB / 5pin RGB / 3pin SMD / 5pin SMD)
   * 47 keycaps. (Cherry profile or lower recommended but 11.9mm OEMs should fit without touching the upper case when closed)
 * Miscellaneous
-  * Micro SD card with Raspberry Pi OS installed (16GB minimum; Bullseye legacy version recommended as of 2023-10-24 for compatibility with the HyperPixel 4.0 rectangle).
+  * Micro SD card with Raspberry Pi OS installed (16GB minimum; Bullseye legacy version recommended as of 2024-02-17 for compatibility with the HyperPixel 4.0 rectangle).
   * A phone kickstand. (I used an ESR branded kickstand.)
   * Kapton tape to secure PowerBoost 1000C and battery to the top chassis.
   * Epoxy or super glue for glueing the hinge covers and hinge mechanisms.
