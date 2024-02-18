@@ -146,6 +146,9 @@ Note: make sure your keyboard locale is correctly configured! You can specify th
 2. Install the USB splitter cable and HDMI cable into their respective panel cutouts.
 4. Friction mount the 3D printed USB and HDMI holders to prevent the cable connectors from moving.
 
+![](https://github.com/jchitpin/think-deck/blob/main/images/chassis-port-cables.jpg)
+Fit-testing port cable cutouts on an older prototype model. This was before I realized I needed to remove the plastic sheathing.
+
 ### Assembling the Raspberry Pi and HyperPixel
 
 1. Solder the 2x20 break-away header to the Raspberry Pi (unless you bought the presoldered version like I did).
@@ -179,6 +182,9 @@ Consult the PowerBoost 1000C documentation for pinouts and assembly instructions
 5. Install the battery into the the left compartment of the chassis with the PowerBoost 1000C lying horizontally at the bottom compartment. The microB charging cable on the PowerBoost should face left towards the battery.
 6. Carefully insert the on/off switch connected to the PowerBoost 1000C into the "cup holder" of the HDMI holder.
 
+![](https://github.com/jchitpin/think-deck/blob/main/images/chassis-upper-guts.jpg)
+Assembled top chassis. Cable management is extremely important. The thicker HDMI cable is bent to rest against to the PowerBoost 1000C USB port. The latest 3D printed files add an additional 0.75mm depth to the battery compartment to give the USB connectors extra clearance from bulging against the screen cover. 
+
 ### Finishing touches
 
 1. Insert the keyboard USB connector into the remaining USB splitter port.
@@ -188,20 +194,20 @@ Consult the PowerBoost 1000C documentation for pinouts and assembly instructions
 5. Fasten the middle hinge cover to the bottom chassis with M2 screws.
 6. Install the quickstand to the back of the bottom chassis. It should come with 3M tape so additional glue shouldn't be necessary.
 
+![](https://github.com/jchitpin/think-deck/blob/main/images/front-face-no-fasteners.jpg)
+Assembled ThinkDeck prior to heat setting the brass inserts and fastening screws.
+
 # Conclusion
 
 Congratulations you have successfully built your very own ThinkDeck! I'd like to give a shout out to Penk for inspiring me to build my own cyberdeck.
 
 # Photo dump
 
-![](https://github.com/jchitpin/think-deck/blob/main/images/chassis-port-cables.jpg)
-Fit-testing port cable cutouts. This was before I realized I needed to remove the plastic sheathing.
 
-![](https://github.com/jchitpin/think-deck/blob/main/images/front-face-no-fasteners.jpg)
-Assembled ThinkDeck prior to heat setting the brass inserts and fastening screws.
 
-![](https://github.com/jchitpin/think-deck/blob/main/images/chassis-upper-guts.jpg)
-Assembled top chassis. I updated the model after with 0.75mm extra clearance to the battery compartment to avoid bulging from the USB connectors on top. Also decided against heat setting brass inserts into the USB holders because they fit snuggly into the top chassis.
+
+
+
 
 ![](https://github.com/jchitpin/think-deck/blob/main/images/chassis-separated.jpg)
 Assembled top and bottom chassis. I assembled the hinges at the end and would suggest doing them before fitting the electronics.
