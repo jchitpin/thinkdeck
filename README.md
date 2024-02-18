@@ -15,7 +15,7 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
 ## Features
 
 1. Full-sized key switches/keycaps in a 40% ortho layout.
-2. Panel mounted I/O ports for (i) micro B charging, (ii) HDMI display, and (iii) USB A 2.0 port.
+2. Panel mounted I/O ports for (i) micro B charging, (ii) HDMI display (and therefore audio via monitor), and (iii) USB A 2.0 port.
 3. Capactive touch screen display.
 4. Visible LED indicators for battery management status (from the PowerBoost 1000C).
 5. Power switch enclosed within the case to prevent accidental power toggling.
@@ -24,13 +24,11 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
 
 Insert pictures here (TBD).
 
-## Design comprises compared to the original Penkesu
+## Design compromises compared to the original Penkesu
 
-1. Several millimetres longer in all dimensions compared to the original Penkesu.
+1. Several millimetres longer in all dimensions.
 2. Display is relatively small because most electronics are enclosed in the top chassis.
-3. No 3.5mm headphone jack. Bluetooth audio required unless connected to a monitor via HDMI.
-4. No trackpoint. :(
-5. Kickstand required to prevent the device from tipping onto the screen at a normal viewing angle.
+3. Kickstand required to prevent the device from tipping onto the screen at a normal viewing angle.
 
 # Materials
 
