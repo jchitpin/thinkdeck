@@ -202,6 +202,6 @@ Assembled ThinkDeck prior to heat setting the screen cover inserts and fastening
 
 # Conclusion
 
-Congratulations you have successfully built your very own ThinkDeck! I'd like to give a shout out to Penk for inspiring me to build my own cyberdeck and learn about 3D modelling and soldering.
+Congratulations! You have built your very own ThinkDeck! I'd like to give a shout out to Penk for inspiring me to build my own cyberdeck.
 
 
