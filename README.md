@@ -124,7 +124,7 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
 2. See the following links for details:
   * https://github.com/rgoulter/qmk_firmware/tree/bm40hsrgb_rev2/keyboards/kprepublic/bm40hsrgb/rev2
   * https://docs.qmk.fm/#/
-  * My [configuration](https://github.com/jchitpin/think-deck/blob/main/QMK/keymap.c)
+  * My [configuration](https://github.com/jchitpin/think-deck/blob/main/QMK/keymap.c).
 
 Note: make sure your keyboard locale is correctly configured! You can specify the locale when installing Raspbian or via `sudo raspi-config`.
 
@@ -203,5 +203,3 @@ Assembled ThinkDeck prior to heat setting the screen cover inserts and fastening
 # Conclusion
 
 Congratulations! You have built your very own ThinkDeck! I'd like to give a shout out to Penk for inspiring me to build my own cyberdeck.
-
-
