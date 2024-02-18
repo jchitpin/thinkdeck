@@ -190,9 +190,10 @@ Assembled top chassis. Cable management is extremely important. The thicker HDMI
 1. Insert the keyboard USB connector into the remaining USB splitter port.
 2. Tape down any wires that are sticking out.
 3. Tape down the two USB A splitter headers to the battery.
-4. Fasten the screen cover to the top chassis with M2 screws.
-5. Fasten the middle hinge cover to the bottom chassis with M2 screws.
-6. Install the quickstand to the back of the bottom chassis. It should come with 3M tape so additional glue shouldn't be necessary.
+4. Remove the protective film on the HyperPixel.
+5. Fasten the screen cover to the top chassis with M2 screws.
+6. Fasten the middle hinge cover to the bottom chassis with M2 screws.
+7. Install the quickstand to the back of the bottom chassis. It should come with 3M tape so additional glue shouldn't be necessary.
 
 ![](https://github.com/jchitpin/think-deck/blob/main/images/front-face-no-fasteners.jpg)
 Assembled ThinkDeck prior to heat setting the brass inserts and fastening screws.
@@ -200,17 +201,5 @@ Assembled ThinkDeck prior to heat setting the brass inserts and fastening screws
 # Conclusion
 
 Congratulations you have successfully built your very own ThinkDeck! I'd like to give a shout out to Penk for inspiring me to build my own cyberdeck.
-
-# Photo dump
-
-
-
-
-
-
-
-![](https://github.com/jchitpin/think-deck/blob/main/images/chassis-separated.jpg)
-Assembled top and bottom chassis. I assembled the hinges at the end and would suggest doing them before fitting the electronics.
-
 
 
