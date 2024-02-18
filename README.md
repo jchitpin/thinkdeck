@@ -93,6 +93,7 @@ Insert pictures here (TBD).
 
 <details>
   <summary>Miscellaneous</summary>
+  
   * Micro SD card with Raspberry Pi OS installed (16GB minimum; Bullseye legacy version recommended as of 2024-02-17 for compatibility with the HyperPixel 4.0 rectangle).
   * A phone kickstand. (I used an ESR branded kickstand.)
   * Kapton tape to secure PowerBoost 1000C and battery to the top chassis.
@@ -100,6 +101,7 @@ Insert pictures here (TBD).
   * Soldering iron, solder, and wire.
   * Utility knife.
   * Cable ties. (Optional)
+
  </details>
  
 # Build guide
