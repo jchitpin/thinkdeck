@@ -1,6 +1,6 @@
 # ThinkDeck
 
-A Penkesu-inspired portable PC that incorporates my favourite design elements of old ThinkPads
+A Penkesu-inspired portable PC that incorporates my favourite design elements of old ThinkPads.
 
 ![](https://github.com/jchitpin/think-deck/blob/main/images/profile.jpg)
 ![](https://github.com/jchitpin/think-deck/blob/main/images/profile-angled.jpg)
@@ -32,23 +32,40 @@ Insert pictures here (TBD).
 
 # Materials
 
-* Cables and connectors
-  * Break-away 0.1" 2x20-pin strip dual male header (or a Raspberry Pi with a presoldered header).
-  * Micro B male OTG to USB A female cable (15cm length).
-  * Micro B male to USB A female cable (15cm length).
-  * USB A Y-splitter cable (make sure it can transfer data;  30cm length).
-  * USB A male to USB C right angle female connector (make sure the right angle connection is fairly slim; 30cm length).
+<details>
+  <summary>Cables and connectors</summary>
+ 
+  * Break-away 0.1" 2x20-pin strip dual male header (or a Raspberry Pi with a presoldered header).  
+  * Micro B male OTG to USB A female cable (15cm length).  
+  * Micro B male to USB A female cable (15cm length).  
+  * USB A Y-splitter cable (make sure it can transfer data;  30cm length).  
+  * USB A male to USB C right angle female connector (make sure the right angle connection is fairly slim; 30cm length).  
   * Micro HDMI male to HDMI female cable (15cm length).
-* Case
+     
+</details>
+
+<details>
+  <summary>Case</summary>
+ 
   * 6mm wide plastic/wooden/metal dowels or Gameboy Advance SP replacement hinges.
   * 3D printed parts.
-* Electronics
+     
+</details>
+
+<details>
+  <summary>Electronics</summary>
+ 
   * Raspberry Pi Zero 2 W (or possibly a Raspberry Pi Zero W).
   * Adafruit PowerBoost 1000C.
   * HyperPixel 4.0 (rectangle) display.
   * 3.7V 606090 or up to 755590 Li-Po battery. Dimensions may not exceed 91×55×7.5mm (length x width x depth).
   * SPDT Slide Switch (for powering the device). Dimensions should not exceed 8.5x3.5mm (length x width).
-* Fasteners
+     
+</details>
+
+<details>
+  <summary>Fasteners</summary>
+ 
   * For HDMI holder (optional)
     * 4 M2x6x3.5mm or M2x8x3.5mm threaded inserts.
     * 4 M2x6mm or M2x8mm screws.
@@ -61,12 +78,21 @@ Insert pictures here (TBD).
   * Middle hinge cover (threaded inserts required with M2 screws!)
     * 2 M2x4x3.5mm threaded inserts.
     * 2 M2x4mm screws.
-* Keyboard
+     
+</details>
+
+<details>
+  <summary>Keyboard</summary>
+
   * BM40v2 hotswap PCB with included 2U Stabilizer from KPrepublic.
   * BM40v2 plate from KPrepublic. (Optional and you could also 3D print this)
   * 47 switches compatible with the PCB. (3pin RGB / 5pin RGB / 3pin SMD / 5pin SMD)
   * 47 keycaps. (Cherry profile or lower recommended but 11.9mm OEMs should fit without touching the upper case when closed)
-* Miscellaneous
+
+</details>
+
+<details>
+  <summary>Miscellaneous</summary>
   * Micro SD card with Raspberry Pi OS installed (16GB minimum; Bullseye legacy version recommended as of 2024-02-17 for compatibility with the HyperPixel 4.0 rectangle).
   * A phone kickstand. (I used an ESR branded kickstand.)
   * Kapton tape to secure PowerBoost 1000C and battery to the top chassis.
@@ -74,6 +100,7 @@ Insert pictures here (TBD).
   * Soldering iron, solder, and wire.
   * Utility knife.
   * Cable ties. (Optional)
+ </details>
  
 # Build guide
 
