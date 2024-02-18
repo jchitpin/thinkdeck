@@ -121,9 +121,10 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
 ### QMK flashing
 
 1. Install QMK and follow their instructions to flash your own keyboard.
-2. See the following link for details:
+2. See the following links for details:
   * https://github.com/rgoulter/qmk_firmware/tree/bm40hsrgb_rev2/keyboards/kprepublic/bm40hsrgb/rev2
   * https://docs.qmk.fm/#/
+  * My [configuration](https://github.com/jchitpin/think-deck/blob/main/QMK/keymap.c)
 Note: make sure your keyboard locale is correctly configured! You can specify the locale when installing Raspbian or via `sudo raspi-config`.
 
 ### Mounting keyboard in the bottom chassis
