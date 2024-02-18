@@ -196,7 +196,7 @@ Assembled top chassis. Cable management is extremely important. The thicker HDMI
 7. Install the quickstand to the back of the bottom chassis. It should come with 3M tape so additional glue shouldn't be necessary.
 
 ![](https://github.com/jchitpin/think-deck/blob/main/images/front-face-no-fasteners.jpg)
-Assembled ThinkDeck prior to heat setting the brass inserts and fastening screws.
+Assembled ThinkDeck prior to heat setting the screen cover inserts and fastening them.
 
 # Conclusion
 
