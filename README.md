@@ -126,7 +126,7 @@ For mechanical keyboard novices such as myself, the instructions are straightfor
   * https://docs.qmk.fm/#/
 Note: make sure your keyboard locale is correctly configured! You can specify the locale when installing Raspbian or via `sudo raspi-config`.
 
-### Mounting keyboard to bottom chassis
+### Mounting keyboard in the bottom chassis
 
 1. Connect the USB cable to the keyboard PCB and lower them into the bottom chassis.
 2. Route the USB A connector approximately 2-3 inches out of the bottom chassis hinge opening. This cable will connect to the Pi in the top chassis via a USB splitter.
@@ -176,10 +176,9 @@ Consult the PowerBoost 1000C documentation for pinouts and assembly instructions
 ### Installing all electronics in the top chassis
 
 1. Plug the microB charging cable into the PowerBoost 1000C USB header, routing excess cable through the bottom of the chassis.
-2. Connect one of the two USB splitter ports to the USB A panel cutout cables.
-3. Plug the mini HDMI, microB charging, and microB OTG cables into the Pi. Make sure the microB OTG cable is cable managed such that it pokes out of the top left part of the HyperPixel display.
-4. Connect the USB splitter to the USB OTG cable. Routing the cable headers so that they face left on top of the battery is ideal.
-5. Install the battery into the the left compartment of the chassis with the PowerBoost 1000C lying horizontally at the bottom compartment. The microB charging cable on the PowerBoost should face left towards the battery.
+2. Connect the male USB splitter header to the microB OTG female header. 
+3. Plug the mini HDMI, microB charging, and microB OTG cables into the Pi. Route the two USB splitter headers so that they poke out of the top left part of the HyperPixel display and rest on the battery.
+4. Install the battery into the the left compartment of the chassis with the PowerBoost 1000C lying horizontally at the bottom compartment. The microB charging cable on the PowerBoost should face left towards the battery.
 6. Lower the HyperPixel and Pi into the central compartment of the chassis. 
 7. Carefully insert the on/off switch connected to the PowerBoost 1000C into the "cup holder" of the HDMI holder.
 
@@ -188,7 +187,7 @@ Assembled top chassis. Cable management is extremely important. The thicker HDMI
 
 ### Finishing touches
 
-1. Insert the keyboard USB connector into the remaining USB splitter port.
+1. Insert the keyboard USB connector from the bottom chassis into the remaining USB splitter port.
 2. Tape down any wires that are sticking out.
 3. Tape down the two USB A splitter headers to the battery.
 4. Remove the protective film on the HyperPixel.
@@ -201,6 +200,6 @@ Assembled ThinkDeck prior to heat setting the screen cover inserts and fastening
 
 # Conclusion
 
-Congratulations you have successfully built your very own ThinkDeck! I'd like to give a shout out to Penk for inspiring me to build my own cyberdeck.
+Congratulations you have successfully built your very own ThinkDeck! I'd like to give a shout out to Penk for inspiring me to build my own cyberdeck and learn about 3D modelling and soldering.
 
 
