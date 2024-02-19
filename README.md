@@ -106,20 +106,31 @@ Insert pictures here (TBD).
  
 # Build guide
 
-## Modifying the 3D prints (optional)
+<details>
+  <summary>Modifying the 3D prints (optional)</summary>
 
-You may need/want to modify the chassis design depending on the size of your components. These include:
+  You may need/want to modify the chassis design depending on the size of your components. These include:
 
-1. Modifying the micro B connector panel cutout.
-2. Modifying the HDMI panel cutout.
-3. Modifying the USB A panel cutout.
-4. Modifying the chassis dimensions to accommodate the length/width of your keyboard.
-5. Adding your own custom screen cover design rather than the standard 30 degree grill.
+  1. Modifying the micro B connector panel cutout.
+  2. Modifying the HDMI panel cutout.
+  3. Modifying the USB A panel cutout.
+  4. Modifying the chassis dimensions to accommodate the length/width of your keyboard.
+  5. Adding your own custom screen cover design rather than the standard 30 degree grill.
+   
+</details>
+
+<details>
+  <summary>Cable modifications and testing</summary>
+
+  I recommend testing whether all of your cables work before installing them into the the chassis. These include the micro HDMI to HDMI connector, the USB   splitter, micro B panel connector, and USB C to USB A cable.
+  I also recommend (carefully!) stripping the outer plastic sheathing to reduce cable bulk and wrapping with a thin layer of Kapton tape. Shaving plastic    off the USB connectors may also be needed to fit them inside the panel cutouts.
+   
+</details>
+
 
 ## Cable testing and modifications
 
-I recommend testing whether all of your cables work before installing them into the the chassis. These include the micro HDMI to HDMI connector, the USB splitter, micro B panel connector, and USB C to USB A cable.
-I also recommend (carefully!) stripping the outer plastic sheathing to reduce cable bulk and wrapping with a thin layer of Kapton tape. Shaving plastic off the USB connectors may also be needed to fit them inside the panel cutouts.
+
 
 ## Assembling the top and bottom ThinkDeck chassis
 
