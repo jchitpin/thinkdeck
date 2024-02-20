@@ -28,7 +28,7 @@ Insert pictures here (TBD).
 
 1. Several millimetres longer in all dimensions.
 2. Display is relatively small because most electronics are enclosed in the top chassis.
-3. Kickstand required to prevent the device from tipping onto the screen at a normal viewing angle.
+3. Kickstand required to prevent the device from tipping over at a normal viewing angle.
 
 # Materials
 
