@@ -31,15 +31,18 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
 6. Dimensions are 232x98x55mm (L x W x H).
 7. Weighs roughly 840 grams (PETG with 30% infill).
 
-Insert pictures here (TBD).
+<p float="center">
+  <img src="https://github.com/jchitpin/think-deck/blob/main/images/print-chassis-top.jpg" width="49.7%" />
+  <img src="https://github.com/jchitpin/think-deck/blob/main/images/print-chassis-bottom.jpg" width="49.7%" /> 
+  <img src="https://github.com/jchitpin/think-deck/blob/main/images/print-chassis-screen.jpg" width="49.7%" /> 
+  <img src="https://github.com/jchitpin/think-deck/blob/main/images/print-chassis-ports.jpg" width="49.7%" /> 
+</p>
 
 ## Design compromises compared to the original Penkesu
 
 1. Several millimetres longer in all dimensions.
 2. Display is relatively small because most electronics are enclosed in the top chassis.
 3. Kickstand required to prevent the device from tipping over at a normal viewing angle.
-
-
 
 # Materials
 
