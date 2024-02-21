@@ -2,9 +2,11 @@
 
 A Penkesu-inspired portable PC that incorporates my favourite design elements of old ThinkPads.
 
-![](https://github.com/jchitpin/think-deck/blob/main/images/profile.jpg)
-![](https://github.com/jchitpin/think-deck/blob/main/images/profile-angled.jpg)
-![](https://github.com/jchitpin/think-deck/blob/main/images/action-shot.jpg)
+<p float="center">
+  <img src="https://github.com/jchitpin/think-deck/blob/main/images/profile.jpg" width="49.7%" />
+  <img src="https://github.com/jchitpin/think-deck/blob/main/images/profile-angled.jpg" width="49.7%" /> 
+  <img src="https://github.com/jchitpin/think-deck/blob/main/images/action-shot.jpg" width="100%" /> 
+</p>
 
 ## Why would you want one?
 
@@ -106,6 +108,8 @@ Insert pictures here (TBD).
  
 # Build guide
 
+## 1. Modifying and printing parts
+
 <details>
   <summary>Modifying the 3D prints (optional)</summary>
 
@@ -116,6 +120,7 @@ Insert pictures here (TBD).
   3. Modifying the USB A panel cutout.
   4. Modifying the chassis dimensions to accommodate the length/width of your keyboard.
   5. Adding your own custom screen cover design rather than the standard 30 degree grill.
+  6. Print the pieces and carefully trim off any supports. A pair of needle nose pliers is great for removing supports inside the panel cutouts.
    
 </details>
 
@@ -127,118 +132,138 @@ Insert pictures here (TBD).
    
 </details>
 
+<details>
+  <summary>Assembling the top and bottom ThinkDeck chassis</summary>
 
-## Cable testing and modifications
+  1. Insert the GBA hinges or dowels into the bottom chassis hinge holes.
+  2. Carefully epoxy/superglue the exposed GBA hinges/dowels to the hinge grooves of the top chassis. Make sure the glue does not seep into the bottom chassis hinge holes!
+  3. When dry, epoxy/superglue the left and right 3D printed hinge caps to enclose the hinges/dowels.
+  4. Insert 2 threaded inserts into the middle hinge of the bottom chassis using a hot soldering iron.
+  5. Insert 4 threaded inserts into the top chassis using a hot soldering iron. Take care not to melt the chassis walls!
+  6. Optional: sand/prime/sand/paint/clear coat.
+   
+</details>
 
+## 2. Bottom chassis
 
+<details>
+  <summary>Assembling the keyboard</summary>
 
-## Assembling the top and bottom ThinkDeck chassis
+  Those with an existing 40% keyboard should consider modifying the chassis to accommodate their own board.
+  For mechanical keyboard novices such as myself, the instructions are straightforward for the hotswap PCB:
 
-1. Carefully trim off supports from the 3D prints. A pair of needle nose pliers is great for removing supports inside the panel cutouts.
-2. Insert the GBA hinges or dowels into the bottom chassis hinge holes.
-3. Carefully epoxy/superglue the exposed GBA hinges/dowels to the hinge grooves of the top chassis. Make sure the glue does not seep into the bottom chassis hinge holes!
-4. When dry, epoxy/superglue the left and right 3D printed hinge caps to enclose the hinges/dowels.
-5. Optional: sand/prime/sand/paint/clear coat.
+  1. If using a keyboard plate, pop the switches into the plate with the pins in the same direction and aligned with the PCB. You should hear each switch snap into place.
+  2. After checking the switch pins are straight, snap the plate+switches into the hotswap PCB. You should see the pins making contact with each socket on the backside of the PCB.
+  3. Plug the board into a computer and test whether each switch is correctly installed. Keys that do not register most likely correspond to switches with bent pins that are not contacting the socket.
+  4. It is recommended to flash your keyboard before installing it in the case because it can be tricky to enter the bootloader afterwards.
+    * Bootmagic reset: Hold down the key at (0,0) in the matrix (the top left key) and then plug the keyboard into the Pi.
+    * Physical reset button: Briefly press the button labeled 'RST' on the back of the PCB.
+    
+</details>
 
-## Bottom chassis
+<details>
+  <summary>QMK flashing keyboard</summary>
 
-### Heat-setting the threaded brass inserts
-
-5. Insert the two threaded inserts that fasten the middle hinge cover using a hot soldering iron.
-
-### Assembling the keyboard
-
-Those with an existing 40% keyboard should consider modifying the chassis to accommodate their own board.
-For mechanical keyboard novices such as myself, the instructions are straightforward for the hotswap PCB:
-
-1. If using a keyboard plate, pop the switches into the plate with the pins in the same direction and aligned with the PCB. You should hear each switch snap into place.
-2. After checking the switch pins are straight, snap the plate+switches into the hotswap PCB. You should see the pins making contact with each socket on the backside of the PCB.
-3. Plug the board into a computer and test whether each switch is correctly installed. Keys that do not register most likely correspond to switches with bent pins that are not contacting the socket.
-4. It is recommended to flash your keyboard before installing it in the case because it can be tricky to enter the bootloader afterwards.
-  * Bootmagic reset: Hold down the key at (0,0) in the matrix (the top left key) and then plug the keyboard into the Pi.
-  * Physical reset button: Briefly press the button labeled 'RST' on the back of the PCB.
-
-### QMK flashing
-
-1. Install QMK and follow their instructions to flash your own keyboard.
-2. See the following links for details:
-  * https://github.com/rgoulter/qmk_firmware/tree/bm40hsrgb_rev2/keyboards/kprepublic/bm40hsrgb/rev2
-  * https://docs.qmk.fm/#/
-  * My [configuration](https://github.com/jchitpin/think-deck/blob/main/QMK/keymap.c).
+  1. Install QMK and follow their instructions to flash your own keyboard.
+  2. See the following links for details:
+    * https://github.com/rgoulter/qmk_firmware/tree/bm40hsrgb_rev2/keyboards/kprepublic/bm40hsrgb/rev2
+    * https://docs.qmk.fm/#/
+    * My [configuration](https://github.com/jchitpin/think-deck/blob/main/QMK/keymap.c).
 
 Note: make sure your keyboard locale is correctly configured! You can specify the locale when installing Raspbian or via `sudo raspi-config`.
 
-### Mounting keyboard in the bottom chassis
+</details>
 
-1. Connect the USB cable to the keyboard PCB and lower them into the bottom chassis.
-2. Route the USB A connector approximately 2-3 inches out of the bottom chassis hinge opening. This cable will connect to the Pi in the top chassis via a USB splitter.
-3. Secure the excess keyboard USB cabling inside the bottom chassis compartment using cable ties.
-4. Insert the keyboard divider into the bottom chassis to hide the excess keyboard USB cabling.
-5. Insert cardstock/paper/rubber spacers surrounding the keyboard if there is excess PCB wiggle room inside the bottom chassis.
+<details>
+  <summary>Mounting keyboard in the bottom chassis</summary>
 
-## Top chassis
+  1. Connect the USB cable to the keyboard PCB and lower them into the bottom chassis.
+  2. Route the USB A connector approximately 2-3 inches out of the bottom chassis hinge opening. This cable will connect to the Pi in the top chassis via a USB splitter.
+  3. Secure the excess keyboard USB cabling inside the bottom chassis compartment using cable ties.
+  4. Insert the keyboard divider into the bottom chassis to hide the excess keyboard USB cabling.
+  5. Insert cardstock/paper/rubber spacers surrounding the keyboard if there is excess PCB wiggle room inside the bottom chassis.
+     
+</details>
 
-### Heat-setting the thereaded brass inserts
+## 3. Top chassis
 
-1. Insert the 4 threaded inserts that fasten the top chassis screen cover using a hot soldering iron. Take care not to melt the chassis walls!
+<details>
+  <summary>Mounting cable connectors</summary>
+
+  1. Install the microB charging cable into its cutout with the two included screws. 
+  2. Install the USB splitter cable and HDMI cable into their respective panel cutouts.
+  3. Friction mount the 3D printed USB and HDMI holders to prevent the cable connectors from moving.
+
+  ![](https://github.com/jchitpin/think-deck/blob/main/images/chassis-port-cables.jpg)
+  Fit-testing port cable cutouts on an older prototype model. This was before I realized I needed to remove the plastic sheathing.
+
+</details>
    
-### Mounting cable connectors
+<details>
+  <summary>Assembling the Raspberry Pi and HyperPixel</summary>
 
-1. Install the microB charging cable into its cutout with the two included screws. 
-2. Install the USB splitter cable and HDMI cable into their respective panel cutouts.
-4. Friction mount the 3D printed USB and HDMI holders to prevent the cable connectors from moving.
+  1. Solder the 2x20 break-away header to the Raspberry Pi (unless you bought the presoldered version like I did).
+  2. Gently connect the HyperPixel to the Raspberry Pi 2x20 header. The display manufacturer Pimoroni recommends holding the display at the edges.
+  3. Insert your microSD card into the Raspberry Pi and power the device.
+  
+</details>
 
-![](https://github.com/jchitpin/think-deck/blob/main/images/chassis-port-cables.jpg)
-Fit-testing port cable cutouts on an older prototype model. This was before I realized I needed to remove the plastic sheathing.
 
-### Assembling the Raspberry Pi and HyperPixel
+<details>
+  <summary>Installing HyperPixel drivers if the Pi boots to a black screen</summary>
 
-1. Solder the 2x20 break-away header to the Raspberry Pi (unless you bought the presoldered version like I did).
-2. Gently connect the HyperPixel to the Raspberry Pi 2x20 header. The display manufacturer Pimoroni recommends holding the display at the edges.
-3. Insert your microSD card into the Raspberry Pi and power the device. See below if this results in a black screen...
+  I successfully got the display working with a legacy version of 64-bit Raspbian (based on Bullseye dated 2023-12-05 rather than Bookworm).
+  
+  1. Edit Raspbian `/boot/config.txt` file and add the following lines to the top of the screen:
+    * `dtoverlay=vc4-kms-dpi-hyperpixel4`
+    * `dtparam=rotate=90,touchscreen-swapped-x-y,touchscreen-inverted-x`
+  2. Booted into the Pi with the Hyperpixel 4.0 display working (albeit in portrait mode with inverted touchscreen controls).
+  3. Ran the `Pi Screen Configuration` application in the drop down menu and changed the screen orientation.
+    * Right-clicked on the display and set orientation to `left`.
+  
+</details> 
 
-### Installing HyperPixel drivers if the Pi boots to a black screen
+<details>
+  <summary>Soldering the PowerBoost 1000C to the battery and Pi + HyperPixel</summary>
 
-I successfully got the display working with a legacy version of 64-bit Raspbian (based on Bullseye dated 2023-12-05 rather than Bookworm).
-1. Edit Raspbian `/boot/config.txt` file and add the following lines to the top of the screen:
-  * `dtoverlay=vc4-kms-dpi-hyperpixel4`
-  * `dtparam=rotate=90,touchscreen-swapped-x-y,touchscreen-inverted-x`
-2. Booted into the Pi with the Hyperpixel 4.0 display working (albeit in portrait mode with inverted touchscreen controls).
-3. Ran the `Pi Screen Configuration` application in the drop down menu and changed the screen orientation.
-  * Right-clicked on the display and set orientation to `left`.
+  Consult the PowerBoost 1000C documentation for pinouts and assembly instructions: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-powerboost-1000c-load-share-usb-charge-boost.pdf
 
-### Soldering the PowerBoost 1000C to the battery and Pi + HyperPixel
+  1. Solder the included USB header to the PowerBoost 1000C PCB (or directly solder the PowerBoost 1000C PCB to the Pi).
+  2. Connect the battery to the PowerBoost 1000C via the JST connector or solder the wires directly to the board (what I did).
+  3. Solder the on/off switch (SPDT Slide Switch) to the PowerBoost 1000C with enough wire to position the switch on the right chassis compartment.
+  
+</details> 
 
-Consult the PowerBoost 1000C documentation for pinouts and assembly instructions: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-powerboost-1000c-load-share-usb-charge-boost.pdf
+<details>
+  <summary>Installing remaining electronics in the top chassis</summary>
 
-1. Solder the included USB header to the PowerBoost 1000C PCB (or directly solder the PowerBoost 1000C PCB to the Pi).
-2. Connect the battery to the PowerBoost 1000C via the JST connector or solder the wires directly to the board (what I did).
-3. Solder the on/off switch (SPDT Slide Switch) to the PowerBoost 1000C with enough wire to position the switch on the right chassis compartment.
+  1. Plug the microB charging cable into the PowerBoost 1000C USB header, routing excess cable through the bottom of the chassis.
+  2. Connect the male USB splitter header to the microB OTG female header. 
+  3. Plug the mini HDMI, microB charging, and microB OTG cables into the Pi. Route the two USB splitter headers so that they poke out of the top left part of the HyperPixel display and rest on the battery.
+  4. Install the battery into the the left compartment of the chassis with the PowerBoost 1000C lying horizontally at the bottom compartment. The microB charging cable on the PowerBoost should face left towards the battery.
+  5. Lower the HyperPixel and Pi into the central compartment of the chassis. 
+  6. Carefully insert the on/off switch connected to the PowerBoost 1000C into the "cup holder" of the HDMI holder.
 
-### Installing all electronics in the top chassis
+  ![](https://github.com/jchitpin/think-deck/blob/main/images/chassis-upper-guts.jpg)
+  Assembled top chassis. Cable management is extremely important. The thicker HDMI cable is bent to rest against to the PowerBoost 1000C USB port. The latest 3D printed files add an additional 0.75mm depth to the battery compartment to give the USB connectors extra clearance from bulging against the screen cover. 
 
-1. Plug the microB charging cable into the PowerBoost 1000C USB header, routing excess cable through the bottom of the chassis.
-2. Connect the male USB splitter header to the microB OTG female header. 
-3. Plug the mini HDMI, microB charging, and microB OTG cables into the Pi. Route the two USB splitter headers so that they poke out of the top left part of the HyperPixel display and rest on the battery.
-4. Install the battery into the the left compartment of the chassis with the PowerBoost 1000C lying horizontally at the bottom compartment. The microB charging cable on the PowerBoost should face left towards the battery.
-6. Lower the HyperPixel and Pi into the central compartment of the chassis. 
-7. Carefully insert the on/off switch connected to the PowerBoost 1000C into the "cup holder" of the HDMI holder.
+</details> 
 
-![](https://github.com/jchitpin/think-deck/blob/main/images/chassis-upper-guts.jpg)
-Assembled top chassis. Cable management is extremely important. The thicker HDMI cable is bent to rest against to the PowerBoost 1000C USB port. The latest 3D printed files add an additional 0.75mm depth to the battery compartment to give the USB connectors extra clearance from bulging against the screen cover. 
+<details>
+  <summary>Finishing touches</summary>
 
-### Finishing touches
+  1. Insert the keyboard USB connector from the bottom chassis into the remaining USB splitter port.
+  2. Tape down any wires that are sticking out.
+  3. Tape down the two USB A splitter headers to the battery.
+  4. Remove the protective film on the HyperPixel.
+  5. Fasten the screen cover to the top chassis with M2 screws.
+  6. Fasten the middle hinge cover to the bottom chassis with M2 screws.
+  7. Install the quickstand to the back of the bottom chassis. It should come with 3M tape so additional glue shouldn't be necessary.
 
-1. Insert the keyboard USB connector from the bottom chassis into the remaining USB splitter port.
-2. Tape down any wires that are sticking out.
-3. Tape down the two USB A splitter headers to the battery.
-4. Remove the protective film on the HyperPixel.
-5. Fasten the screen cover to the top chassis with M2 screws.
-6. Fasten the middle hinge cover to the bottom chassis with M2 screws.
-7. Install the quickstand to the back of the bottom chassis. It should come with 3M tape so additional glue shouldn't be necessary.
-
-![](https://github.com/jchitpin/think-deck/blob/main/images/front-face-no-fasteners.jpg)
-Assembled ThinkDeck prior to heat setting the screen cover inserts and fastening them.
+  ![](https://github.com/jchitpin/think-deck/blob/main/images/front-face-no-fasteners.jpg)
+  Assembled ThinkDeck prior to heat setting the screen cover inserts and fastening them.
+  
+</details> 
 
 # Conclusion
 
