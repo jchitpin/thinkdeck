@@ -15,6 +15,13 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
   <img src="https://github.com/jchitpin/think-deck/blob/main/images/thinkdeck-ports-2.jpg" width="49.7%" /> 
 </p>
 
+<p float="center">
+  <img src="https://github.com/jchitpin/think-deck/blob/main/images/print-chassis-top.jpg" width="49.7%" />
+  <img src="https://github.com/jchitpin/think-deck/blob/main/images/print-chassis-bottom.jpg" width="49.7%" /> 
+  <img src="https://github.com/jchitpin/think-deck/blob/main/images/print-chassis-screen.jpg" width="49.7%" /> 
+  <img src="https://github.com/jchitpin/think-deck/blob/main/images/print-chassis-ports.jpg" width="49.7%" /> 
+</p>
+
 ## Why would you want one?
 
 1. It looks cool and you like the (slightly chunky) form factor.
@@ -30,13 +37,6 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
 5. Power switch enclosed within the case to prevent accidental power toggling.
 6. Dimensions are 232x98x55mm (L x W x H).
 7. Weighs roughly 840 grams (PETG with 30% infill).
-
-<p float="center">
-  <img src="https://github.com/jchitpin/think-deck/blob/main/images/print-chassis-top.jpg" width="49.7%" />
-  <img src="https://github.com/jchitpin/think-deck/blob/main/images/print-chassis-bottom.jpg" width="49.7%" /> 
-  <img src="https://github.com/jchitpin/think-deck/blob/main/images/print-chassis-screen.jpg" width="49.7%" /> 
-  <img src="https://github.com/jchitpin/think-deck/blob/main/images/print-chassis-ports.jpg" width="49.7%" /> 
-</p>
 
 ## Design compromises compared to the original Penkesu
 
@@ -278,11 +278,10 @@ Note: make sure your keyboard locale is correctly configured! You can specify th
   6. Fasten the middle hinge cover to the bottom chassis with M2 screws.
   7. Install the quickstand to the back of the bottom chassis. It should come with 3M tape so additional glue shouldn't be necessary.
 
-  ![](https://github.com/jchitpin/think-deck/blob/main/images/front-face-no-fasteners.jpg)
-  Assembled ThinkDeck prior to heat setting the screen cover inserts and fastening them.
-  
 </details> 
 
 # Conclusion
 
 Congratulations! You have built your very own ThinkDeck! I'd like to give a shout out to Penk for inspiring me to build my own cyberdeck.
+
+![](https://github.com/jchitpin/think-deck/blob/main/images/front-face-no-fasteners.jpg)
