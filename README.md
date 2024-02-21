@@ -127,8 +127,14 @@ Insert pictures here (TBD).
 <details>
   <summary>Cable modifications and testing</summary>
 
-  I recommend testing whether all of your cables work before installing them into the the chassis. These include the micro HDMI to HDMI connector, the USB   splitter, micro B panel connector, and USB C to USB A cable.
-  I also recommend (carefully!) stripping the outer plastic sheathing to reduce cable bulk and wrapping with a thin layer of Kapton tape. Shaving plastic    off the USB connectors may also be needed to fit them inside the panel cutouts.
+  I recommend testing whether all of your cables work before installing them into the the chassis. These include:
+  
+  1. Micro HDMI to HDMI connector.
+  2. USB splitter.
+  3. Micro B panel connector.
+  4. USB C to USB A cable.
+     
+  I also recommend (carefully!) stripping the outer plastic sheathing to reduce cable bulk and wrapping with a thin layer of Kapton tape. Shaving plastic off the USB housing may help fit them inside the panel cutouts.
    
 </details>
 
