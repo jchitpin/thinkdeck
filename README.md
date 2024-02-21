@@ -62,7 +62,7 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
   <summary>Case</summary>
  
   * 6mm wide plastic/wooden/metal dowels or Gameboy Advance SP replacement hinges.
-  * 3D printed parts.
+  * 3D printed parts (9 STL files in total).
      
 </details>
 
