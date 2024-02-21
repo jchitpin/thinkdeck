@@ -8,13 +8,20 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
   <img src="https://github.com/jchitpin/think-deck/blob/main/images/action-shot.jpg" width="100%" /> 
 </p>
 
+<p float="center">
+  <img src="https://github.com/jchitpin/think-deck/blob/main/images/thinkdeck-weight.jpg" width="49.7%" />
+  <img src="https://github.com/jchitpin/think-deck/blob/main/images/thinkdeck-profile.jpg" width="49.7%" /> 
+  <img src="https://github.com/jchitpin/think-deck/blob/main/images/thinkdeck-ports-1.jpg" width="49.7%" /> 
+  <img src="https://github.com/jchitpin/think-deck/blob/main/images/thinkdeck-ports-2.jpg" width="49.7%" /> 
+</p>
+
 ## Why would you want one?
 
 1. It looks cool and you like the (slightly chunky) form factor.
 2. You need a small(-ish) Linux box, possibly for connecting with other IoT devices.
 3. You want a portable computing/note taking device with support for full-sized key switches/keycaps.
 
-## Features
+## Features and specifications
 
 1. Full-sized key switches/keycaps in a 40% ortho layout.
 2. Panel mounted I/O ports for (i) micro B charging, (ii) HDMI display (and therefore audio via monitor), and (iii) USB A 2.0 port.
@@ -22,7 +29,7 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
 4. Visible LED indicators for battery management status (from the PowerBoost 1000C).
 5. Power switch enclosed within the case to prevent accidental power toggling.
 6. Dimensions are 232x98x55mm (L x W x H).
-7. INSERT WEIGHT! (PETG)
+7. Weighs roughly 840 grams (PETG with 30% infill).
 
 Insert pictures here (TBD).
 
@@ -31,6 +38,8 @@ Insert pictures here (TBD).
 1. Several millimetres longer in all dimensions.
 2. Display is relatively small because most electronics are enclosed in the top chassis.
 3. Kickstand required to prevent the device from tipping over at a normal viewing angle.
+
+
 
 # Materials
 
