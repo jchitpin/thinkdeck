@@ -182,11 +182,11 @@ A Penkesu-inspired portable PC that incorporates my favourite design elements of
 <details>
   <summary>QMK flashing keyboard</summary>
 
-  1. Install QMK and follow their instructions to flash your own keyboard.
-  2. See the following links for details:
-    * https://github.com/rgoulter/qmk_firmware/tree/bm40hsrgb_rev2/keyboards/kprepublic/bm40hsrgb/rev2
-    * https://docs.qmk.fm/#/
-    * My [configuration](https://github.com/jchitpin/think-deck/blob/main/QMK/keymap.c).
+  Install QMK and follow their instructions to flash your own keyboard. See the following links for details:
+
+  * https://github.com/rgoulter/qmk_firmware/tree/bm40hsrgb_rev2/keyboards/kprepublic/bm40hsrgb/rev2 
+  * https://docs.qmk.fm/#/ 
+  * My [configuration](https://github.com/jchitpin/think-deck/blob/main/QMK/keymap.c). 
 
 Note: make sure your keyboard locale is correctly configured! You can specify the locale when installing Raspbian or via `sudo raspi-config`.
 
