@@ -233,11 +233,11 @@ Note: make sure your keyboard locale is correctly configured! You can specify th
   I successfully got the display working with a legacy version of 64-bit Raspbian (based on Bullseye dated 2023-12-05 rather than Bookworm).
   
   1. Edit Raspbian `/boot/config.txt` file and add the following lines to the top of the screen:
-    * `dtoverlay=vc4-kms-dpi-hyperpixel4`
-    * `dtparam=rotate=90,touchscreen-swapped-x-y,touchscreen-inverted-x`
+      * `dtoverlay=vc4-kms-dpi-hyperpixel4`
+      * `dtparam=rotate=90,touchscreen-swapped-x-y,touchscreen-inverted-x`
   2. Booted into the Pi with the Hyperpixel 4.0 display working (albeit in portrait mode with inverted touchscreen controls).
   3. Ran the `Pi Screen Configuration` application in the drop down menu and changed the screen orientation.
-    * Right-clicked on the display and set orientation to `left`.
+      * Right-clicked on the display and set orientation to `left`.
   
 </details> 
 
